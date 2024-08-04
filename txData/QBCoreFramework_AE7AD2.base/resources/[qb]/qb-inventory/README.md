@@ -1,4 +1,4 @@
-# qb-inventory
+# ps-inventory
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
@@ -12,15 +12,15 @@
 - Item Drops
 
 ## Documentation
-https://docs.qbcore.org/qbcore-documentation/qbcore-resources/qb-inventory
+https://docs.qbcore.org/qbcore-documentation/qbcore-resources/ps-inventory
 
 ## Installation
 ### Manual
 - Download the script and put it in the `[qb]` directory.
-- Import `qb-inventory.sql` in your database
+- Import `ps-inventory.sql` in your database
 - Add the following code to your server.cfg/resouces.cfg
 
-# Migrating from old qb-inventory
+# Migrating from old ps-inventory
 
 ## Database
 ### Upload the new `inventory.sql` file to create the new `inventories` table

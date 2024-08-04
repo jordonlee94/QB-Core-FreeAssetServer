@@ -7,7 +7,7 @@ RegisterNetEvent('qb-newsjob:server:addVehicleItems', function(plate)
     if not exports['qb-vehiclekeys']:HasKeys(src, plate) then return end
 
     for slot, item in pairs(Config.VehicleItems) do
-        exports['qb-inventory']:AddItem('trunk-' .. plate, item.name, item.amount, slot, item.info, 'qb-newsjob:vehicleItems')
+        exports['ps-inventory']:AddItem('trunk-' .. plate, item.name, item.amount, slot, item.info, 'qb-newsjob:vehicleItems')
     end
 end)
 

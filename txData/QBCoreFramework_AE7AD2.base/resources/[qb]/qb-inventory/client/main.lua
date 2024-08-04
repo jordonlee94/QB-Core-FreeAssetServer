@@ -102,7 +102,7 @@ exports('HasItem', HasItem)
 
 -- Events
 
-RegisterNetEvent('qb-inventory:client:requiredItems', function(items, bool)
+RegisterNetEvent('ps-inventory:client:requiredItems', function(items, bool)
     local itemTable = {}
     if bool then
         for k in pairs(items) do
@@ -121,7 +121,7 @@ RegisterNetEvent('qb-inventory:client:requiredItems', function(items, bool)
     })
 end)
 
-RegisterNetEvent('qb-inventory:client:hotbar', function(items)
+RegisterNetEvent('ps-inventory:client:hotbar', function(items)
     hotbarShown = not hotbarShown
     SendNUIMessage({
         action = 'toggleHotbar',
@@ -130,20 +130,20 @@ RegisterNetEvent('qb-inventory:client:hotbar', function(items)
     })
 end)
 
-RegisterNetEvent('qb-inventory:client:closeInv', function()
+RegisterNetEvent('ps-inventory:client:closeInv', function()
     SendNUIMessage({
         action = 'close',
     })
 end)
 
-RegisterNetEvent('qb-inventory:client:updateInventory', function()
+RegisterNetEvent('ps-inventory:client:updateInventory', function()
     SendNUIMessage({
         action = 'update',
         inventory = PlayerData.items
     })
 end)
 
-RegisterNetEvent('qb-inventory:client:ItemBox', function(itemData, type, amount)
+RegisterNetEvent('ps-inventory:client:ItemBox', function(itemData, type, amount)
     SendNUIMessage({
         action = 'itemBox',
         item = itemData,
@@ -152,14 +152,14 @@ RegisterNetEvent('qb-inventory:client:ItemBox', function(itemData, type, amount)
     })
 end)
 
-RegisterNetEvent('qb-inventory:server:RobPlayer', function(TargetId)
+RegisterNetEvent('ps-inventory:server:RobPlayer', function(TargetId)
     SendNUIMessage({
         action = 'RobMoney',
         TargetId = TargetId,
     })
 end)
 
-RegisterNetEvent('qb-inventory:client:openInventory', function(items, other)
+RegisterNetEvent('ps-inventory:client:openInventory', function(items, other)
     SetNuiFocus(true, true)
     SendNUIMessage({
         action = 'open',
@@ -170,7 +170,7 @@ RegisterNetEvent('qb-inventory:client:openInventory', function(items, other)
     })
 end)
 
-RegisterNetEvent('qb-inventory:client:giveAnim', function()
+RegisterNetEvent('ps-inventory:client:giveAnim', function()
     if IsPedInAnyVehicle(PlayerPedId(), false) then return end
     LoadAnimDict('mp_common')
     TaskPlayAnim(PlayerPedId(), 'mp_common', 'givetake1_b', 8.0, 1.0, -1, 16, 0, false, false, false)
@@ -184,7 +184,7 @@ RegisterNUICallback('PlayDropFail', function(_, cb)
 end)
 
 RegisterNUICallback('AttemptPurchase', function(data, cb)
-    QBCore.Functions.TriggerCallback('qb-inventory:server:attemptPurchase', function(canPurchase)
+    QBCore.Functions.TriggerCallback('ps-inventory:server:attemptPurchase', function(canPurchase)
         cb(canPurchase)
     end, data)
 end)
@@ -195,21 +195,21 @@ RegisterNUICallback('CloseInventory', function(data, cb)
         if data.name:find('trunk-') then
             CloseTrunk()
         end
-        TriggerServerEvent('qb-inventory:server:closeInventory', data.name)
+        TriggerServerEvent('ps-inventory:server:closeInventory', data.name)
     elseif CurrentDrop then
-        TriggerServerEvent('qb-inventory:server:closeInventory', CurrentDrop)
+        TriggerServerEvent('ps-inventory:server:closeInventory', CurrentDrop)
         CurrentDrop = nil
     end
     cb('ok')
 end)
 
 RegisterNUICallback('UseItem', function(data, cb)
-    TriggerServerEvent('qb-inventory:server:useItem', data.item)
+    TriggerServerEvent('ps-inventory:server:useItem', data.item)
     cb('ok')
 end)
 
 RegisterNUICallback('SetInventoryData', function(data, cb)
-    TriggerServerEvent('qb-inventory:server:SetInventoryData', data.fromInventory, data.toInventory, data.fromSlot, data.toSlot, data.fromAmount, data.toAmount)
+    TriggerServerEvent('ps-inventory:server:SetInventoryData', data.fromInventory, data.toInventory, data.fromSlot, data.toSlot, data.fromAmount, data.toAmount)
     cb('ok')
 end)
 
@@ -217,7 +217,7 @@ RegisterNUICallback('GiveItem', function(data, cb)
     local player, distance = QBCore.Functions.GetClosestPlayer(GetEntityCoords(PlayerPedId()))
     if player ~= -1 and distance < 3 then
         local playerId = GetPlayerServerId(player)
-        QBCore.Functions.TriggerCallback('qb-inventory:server:giveItem', function(success)
+        QBCore.Functions.TriggerCallback('ps-inventory:server:giveItem', function(success)
             cb(success)
         end, playerId, data.item.name, data.amount, data.slot, data.info)
     else
@@ -276,7 +276,7 @@ CreateThread(function()
         options = {
             {
                 type = 'server',
-                event = 'qb-inventory:server:openVending',
+                event = 'ps-inventory:server:openVending',
                 icon = 'fa-solid fa-cash-register',
                 label = Lang:t('menu.vending'),
             },
@@ -305,7 +305,7 @@ for i = 1, 5 do
                 return QBCore.Functions.Notify("Your already holding a bag, Go Drop it!", "error", 5500)
             end
         end
-        TriggerServerEvent('qb-inventory:server:useItem', itemData)
+        TriggerServerEvent('ps-inventory:server:useItem', itemData)
     end, false)
     RegisterKeyMapping('slot_' .. i, Lang:t('inf_mapping.use_item') .. i, 'keyboard', i)
 end

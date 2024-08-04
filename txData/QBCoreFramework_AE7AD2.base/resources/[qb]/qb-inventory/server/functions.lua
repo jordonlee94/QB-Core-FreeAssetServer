@@ -377,7 +377,7 @@ function ClearInventory(source, filterItems)
     if not player.Offline then
         local logMessage = string.format('**%s (citizenid: %s | id: %s)** inventory cleared', GetPlayerName(source), player.PlayerData.citizenid, source)
         TriggerEvent('qb-log:server:CreateLog', 'playerinventory', 'ClearInventory', 'red', logMessage)
-        if Player(source).state.inv_busy then TriggerClientEvent('qb-inventory:client:updateInventory', source) end
+        if Player(source).state.inv_busy then TriggerClientEvent('ps-inventory:client:updateInventory', source) end
     end
 end
 
@@ -425,13 +425,13 @@ exports('HasItem', HasItem)
 -- CloseInventory function closes the inventory for a given source and identifier.
 -- It sets the isOpen flag of the inventory identified by the given identifier to false.
 -- It also sets the inv_busy flag of the player identified by the given source to false.
--- Finally, it triggers the 'qb-inventory:client:closeInv' event for the given source.
+-- Finally, it triggers the 'ps-inventory:client:closeInv' event for the given source.
 function CloseInventory(source, identifier)
     if identifier and Inventories[identifier] then
         Inventories[identifier].isOpen = false
     end
     Player(source).state.inv_busy = false
-    TriggerClientEvent('qb-inventory:client:closeInv', source)
+    TriggerClientEvent('ps-inventory:client:closeInv', source)
 end
 
 exports('CloseInventory', CloseInventory)
@@ -455,7 +455,7 @@ function OpenInventoryById(source, targetId)
     }
     Wait(1500)
     Player(targetId).state.inv_busy = true
-    TriggerClientEvent('qb-inventory:client:openInventory', source, playerItems, formattedInventory)
+    TriggerClientEvent('ps-inventory:client:openInventory', source, playerItems, formattedInventory)
 end
 
 exports('OpenInventoryById', OpenInventoryById)
@@ -515,7 +515,7 @@ function OpenShop(source, name)
         slots = #RegisteredShops[name].items,
         inventory = RegisteredShops[name].items
     }
-    TriggerClientEvent('qb-inventory:client:openInventory', source, Player.PlayerData.items, formattedInventory)
+    TriggerClientEvent('ps-inventory:client:openInventory', source, Player.PlayerData.items, formattedInventory)
 end
 
 exports('OpenShop', OpenShop)
@@ -530,7 +530,7 @@ function OpenInventory(source, identifier, data)
 
     if not identifier then
         Player(source).state.inv_busy = true
-        TriggerClientEvent('qb-inventory:client:openInventory', source, QBPlayer.PlayerData.items)
+        TriggerClientEvent('ps-inventory:client:openInventory', source, QBPlayer.PlayerData.items)
         return
     end
 
@@ -559,7 +559,7 @@ function OpenInventory(source, identifier, data)
         slots = inventory.slots,
         inventory = inventory.items
     }
-    TriggerClientEvent('qb-inventory:client:openInventory', source, QBPlayer.PlayerData.items, formattedInventory)
+    TriggerClientEvent('ps-inventory:client:openInventory', source, QBPlayer.PlayerData.items, formattedInventory)
 end
 
 exports('OpenInventory', OpenInventory)
@@ -658,7 +658,7 @@ function AddItem(identifier, item, amount, slot, info, reason)
     if player then player.Functions.SetPlayerData('items', inventory) end
     local invName = player and GetPlayerName(identifier) .. ' (' .. identifier .. ')' or identifier
     local addReason = reason or 'No reason specified'
-    local resourceName = GetInvokingResource() or 'qb-inventory'
+    local resourceName = GetInvokingResource() or 'ps-inventory'
     TriggerEvent(
         'qb-log:server:CreateLog',
         'playerinventory',
@@ -730,7 +730,7 @@ function RemoveItem(identifier, item, amount, slot, reason)
     if player then player.Functions.SetPlayerData('items', inventory) end
     local invName = player and GetPlayerName(identifier) .. ' (' .. identifier .. ')' or identifier
     local removeReason = reason or 'No reason specified'
-    local resourceName = GetInvokingResource() or 'qb-inventory'
+    local resourceName = GetInvokingResource() or 'ps-inventory'
     TriggerEvent(
         'qb-log:server:CreateLog',
         'playerinventory',
