@@ -517,19 +517,70 @@ function FormatItemInfo(itemData, dom) {
                 itemData.info.citizenid +
                 "</span></p>"
             );
+        } else if (itemData.name == "insurance") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Name: </strong><span>" +
+                itemData.info.name +
+                "</span></p><p><strong>Plate: </strong><span>" +
+                itemData.info.plate +
+                "</span></p><p><strong>Vehicle Model: </strong><span>" +
+                itemData.info.model +
+                "</span></p><p><strong>Date: </strong><span>" +
+                itemData.info.date +
+                "</span></p><p><strong>Expires: </strong><span>" +
+                itemData.info.expire +
+                "</span></p>"
+            );
+
+        } else if (itemData.name == "car_registration") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Name: </strong><span>" +
+                itemData.info.name +
+                "</span></p><p><strong>Plate: </strong><span>" +
+                itemData.info.plate +
+                "</span></p><p><strong>Vehicle Model: </strong><span>" +
+                itemData.info.model +
+                "</span></p>"
+            );
+
+        } else if (itemData.name == "health_insurance") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Name: </strong><span>" +
+                itemData.info.name +
+                "<p><strong>CitizenID: </strong><span>" +
+                itemData.info.citizenid +
+                "</span></p><p><strong>Date: </strong><span>" +
+                itemData.info.date +
+                "</span></p><p><strong>Expires: </strong><span>" +
+                itemData.info.expire +
+                "</span></p>"
+            );
+        } else if (itemData.name == "home_insurance") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Name: </strong><span>" +
+                itemData.info.name +
+                "<p><strong>CitizenID: </strong><span>" +
+                itemData.info.citizenid +
+                "</span></p><p><strong>Date: </strong><span>" +
+                itemData.info.date +
+                "</span></p><p><strong>Expires: </strong><span>" +
+                itemData.info.expire +
+                "</span></p>"
+            );
         } else if (itemData.name == "harness") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
                 "<p>" + itemData.info.uses + " uses left.</p>"
             );
-        } else if (itemData.name == "mdtcitation") {
+        } else if (itemData.name == "mechboard") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
-                '<p><strong>Citizen ID: </strong><span>' + itemData.info.citizenId + '</span></p>' +
-                '<p><strong>Fine: </strong><span>' + itemData.info.fine + '</span></p>' +
-                '<p><strong>Citation Date: </strong><span>' + itemData.info.date + '</span></p>' +
-                '<p><strong>Incident ID: </strong><span>' + itemData.info.incidentId + '</span></p>' +
-                '<p><strong>Involved Officer: </strong><span>' + itemData.info.officer + '</span></p>'
+                "<p>" + itemData.info.vehplate + "</p>" +
+                "<p>" + itemData.info.veh + "</p>"
             );
         } else if (itemData.type == "weapon") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
@@ -646,6 +697,15 @@ function FormatItemInfo(itemData, dom) {
                 itemData.info.cash +
                 "</span></p><p style=\"font-size:11px\"><b>Weight: </b>" + itemData.weight + " | <b>Amount: </b> " + itemData.amount + " | <b>Quality: </b> " + "<a style=\"font-size:11px;color:green\">" + Math.floor(itemData.info.quality) + "</a>"
             );
+        } else if (itemData.name == "mdtcitation") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                '<p><strong>Citizen ID: </strong><span>' + itemData.info.citizenId + '</span></p>' +
+                '<p><strong>Fine: </strong><span>' + itemData.info.fine + '</span></p>' +
+                '<p><strong>Citation Date: </strong><span>' + itemData.info.date + '</span></p>' +
+                '<p><strong>Incident ID: </strong><span>' + itemData.info.incidentId + '</span></p>' +
+                '<p><strong>Involved Officer: </strong><span>' + itemData.info.officer + '</span></p>'
+            );
         } else if (itemData.name == "markedbills") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
@@ -653,6 +713,15 @@ function FormatItemInfo(itemData, dom) {
                 itemData.info.worth +
                 "</span></p><p style=\"font-size:11px\"><b>Weight: </b>" + itemData.weight + " | <b>Amount: </b> " + itemData.amount + " | <b>Quality: </b> " + "<a style=\"font-size:11px;color:green\">" + Math.floor(itemData.info.quality) + "</a>"
             );
+                 } else if (itemData.name == "mdtcitation") {
+    $(".item-info-title").html("<p>" + itemData.label + "</p>");
+    $(".item-info-description").html(
+        '<p><strong>Citizen ID: </strong><span>' + itemData.info.citizenId + '</span></p>' +
+        '<p><strong>Fine: </strong><span>' + itemData.info.fine + '</span></p>' +
+        '<p><strong>Citation Date: </strong><span>' + itemData.info.date + '</span></p>' +
+        '<p><strong>Incident ID: </strong><span>' + itemData.info.incidentId + '</span></p>' +
+        '<p><strong>Involved Officer: </strong><span>' + itemData.info.officer + '</span></p>'
+    );
         } else if (itemData.name == "visa" || itemData.name == "mastercard") {
             $(".item-info-title").html('<p>'+itemData.label+'</p>')
             var str = ""+ itemData.info.cardNumber + "";

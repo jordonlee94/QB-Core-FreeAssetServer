@@ -1,8 +1,13 @@
 
 ================================================================
-======== txAdmin v7.2.2 atop fxserver 9235 Starting - 03/08/2024, 18:44:36
+======== txAdmin v7.2.2 atop fxserver 9235 Starting - 04/08/2024, 01:21:15
 ================================================================
-[18:45:16][phil-macory] created admins file
-[18:45:41][phil-macory] Changing global settings via setup stepper and started Deployer.
-[18:45:44][phil-macory] Setting recipe.
-[18:46:07][phil-macory] Running recipe.
+
+================================================================
+======== Log Rotated - 04/08/2024, 01:21:15                     
+================================================================
+[01:22:02][phil-macory] logged in from 127.0.0.1 via cfxre
+[01:22:52][phil-macory] Changing global/fxserver settings via setup stepper.
+[01:24:04][phil-macory] executed "RESTART SERVER"
+[01:27:41][phil-macory] executed "RESTART SERVER"
+[01:28:14][phil-macory] executed "RESTART SERVER"

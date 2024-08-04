@@ -603,6 +603,9 @@ keya                         = {name = "keya",                          label = 
 ["bottle"]              = {["name"] = "bottle",               ["label"] = "Empty Bottle",     ["weight"] = 10,  ["type"] = "item", 		["image"] = "bottle.png",               ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "A glass bottle"},
 ["can"]                 = {["name"] = "can",                  ["label"] = "Empty Can",        ["weight"] = 10,  ["type"] = "item", 		["image"] = "can.png",                  ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "An empty can, good for recycling"},
 	skateboard 	  	= { name = "skateboard",	label = "Skateboard",	weight = 1,   type = "item", image = "skateboard.png", 	unique = true, 	useable = true, 	shouldClose = true,	combinable = nil,  	description = "a jimnastic board"},
-
+["sprunk"] = {["name"] = "sprunk", ["label"] = "Sprunk", ["weight"] = 100, ["type"] = "item", ["image"] = "sprunk.png", ["unique"] = false, ["useable"] = true,     ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "", ['thirst'] = math.random(20, 30) },
+["sprunklight"] = {["name"] = "sprunklight", ["label"] = "Sprunk Light", ["weight"] = 100, ["type"] = "item", ["image"] = "sprunklight.png", ["unique"] = false,     ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "", ['thirst'] = math.random(20, 30) },
+["ecola"] = {["name"] = "ecola", ["label"] = "eCola", ["weight"] = 100, ["type"] = "item", ["image"] = "ecola.png", ["unique"] = false, ["useable"] = true,     ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "", ['thirst'] = math.random(20, 30) },
+["ecolalight"] = {["name"] = "ecolalight", ["label"] = "eCola Light", ["weight"] = 100, ["type"] = "item", ["image"] = "ecolalight.png", ["unique"] = false,     ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "", ['thirst'] = math.random(20, 30) },
 
 }
