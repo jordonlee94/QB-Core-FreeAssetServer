@@ -2,7 +2,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 SvConfig = {
     Inv = "qb", -- qb(=lj) or ox [Inventory system]
-    webhook = "", -- Add Discord webhook
+    webhook = "https://discord.com/api/webhooks/1269614760349929534/MGsyUY57Fsj7kKp-oOgSN2vKnWLoDmYyTrQHZfP1FUkk0YNJRPeG8vonOb_VT_9cQUTa", -- Add Discord webhook
     FivemerrApiToken = '',
 }
 local function ConfigInvInvalid()

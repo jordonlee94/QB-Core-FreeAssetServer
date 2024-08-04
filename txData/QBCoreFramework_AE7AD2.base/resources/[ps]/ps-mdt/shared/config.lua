@@ -36,7 +36,7 @@ Config.RegisterWeaponsAutomatically = true
 Config.RegisterCreatedWeapons = true
 
 -- "LegacyFuel", "lj-fuel", "ps-fuel"
-Config.Fuel = "ps-fuel"
+Config.Fuel = "LegacyFuel"
 
 -- Google Docs Link
 Config.sopLink = {

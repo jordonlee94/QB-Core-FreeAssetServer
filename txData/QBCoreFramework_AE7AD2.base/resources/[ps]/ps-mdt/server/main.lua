@@ -22,15 +22,15 @@ local FivemerrApiKey = 'YOUR API KEY HERE'
 -- NOT RECOMMENDED. WE RECOMMEND USING Fivemerr.
 -- SET YOUR WEHBOOKS IN HERE
 -- Images for mug shots will be uploaded here. Add a Discord webhook. 
-local MugShotWebhook = ''
+local MugShotWebhook = 'https://discord.com/api/webhooks/1269614760349929534/MGsyUY57Fsj7kKp-oOgSN2vKnWLoDmYyTrQHZfP1FUkk0YNJRPeG8vonOb_VT_9cQUTa'
 
 -- Clock-in notifications for duty. Add a Discord webhook.
 -- Command /mdtleaderboard, will display top players per clock-in hours.
-local ClockinWebhook = ''
+local ClockinWebhook = 'https://discord.com/api/webhooks/1269614760349929534/MGsyUY57Fsj7kKp-oOgSN2vKnWLoDmYyTrQHZfP1FUkk0YNJRPeG8vonOb_VT_9cQUTa'
 
 -- Incident and Incident editting. Add a Discord webhook.
 -- Incident Author, Title, and Report will display in webhook post.
-local IncidentWebhook = ''
+local IncidentWebhook = 'https://discord.com/api/webhooks/1269614760349929534/MGsyUY57Fsj7kKp-oOgSN2vKnWLoDmYyTrQHZfP1FUkk0YNJRPeG8vonOb_VT_9cQUTa'
 --------------------------------
 
 QBCore.Functions.CreateCallback('ps-mdt:server:MugShotWebhook', function(source, cb)
