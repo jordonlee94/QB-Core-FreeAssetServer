@@ -54,12 +54,13 @@
  bl_idcard
  bl_vehiclemenu
 
- https://github.com/Randolio
+ --[[removed pending permissions
+https://github.com/Randolio
 randol_fingerprint
 randol_combatlog
  randol_carheist
  randol_grandma
-
+ --]]
 https://github.com/Annalouu
 an-engineswap
 an-engines
@@ -70,3 +71,10 @@ an-engines
 https://github.com/WolfKnight98
 wk_wars2x
 
+https://github.com/SpiritsCreations/FiveM-Lore-Friendly-Car-Pack
+Lore cars
+optimised the car textures
+
+maps
+https://www.gta5-mods.com/maps/parkingv-add-on-fivem-ragemp-by-verpimodz
+https://www.gta5-mods.com/maps/meetingpoint-remastered-christmas-normal-styled
