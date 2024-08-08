@@ -443,3 +443,885 @@
 [     script:rpemotes] [rpemotes] Currently unable to run a version check.
 [      script:qb-core] [qb-core:LOG] leejo PLAYER SAVED!
 [ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 08/08/2024, 02:26:32               
+================================================================
+[           resources] [32mScanning resources.
+[           resources] Found 130 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] [0mCreating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[           resources] Started resource NativeUI
+[           resources] Started resource RageUI
+[    c-scripting-core] [97mCreating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] [0mStarted resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[           resources] Started resource qb-core
+[    c-scripting-core] Creating script environments for qb-ambulancejob
+[           resources] Started resource qb-ambulancejob
+[           resources] Started resource qb-interior
+[    c-scripting-core] [97mCreating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] [0mCreating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[           resources] Started resource qb-bankrobbery
+[    c-scripting-core] [97mCreating script environments for qb-busjob
+[           resources] Started resource qb-busjob
+[    c-scripting-core] [0mCreating script environments for qb-cityhall
+[           resources] Started resource qb-cityhall
+[    c-scripting-core] [0mCreating script environments for qb-crafting
+[           resources] Started resource qb-crafting
+[           resources] Started resource qb-minigames
+[    c-scripting-core] Creating script environments for qb-crypto
+[           resources] Started resource qb-crypto
+[    c-scripting-core] Creating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] [0mCreating script environments for qb-doorlock
+[           resources] Started resource qb-doorlock
+[    c-scripting-core] Creating script environments for qb-drugs
+[           resources] [0mStarted resource qb-drugs
+[    c-scripting-core] [0mCreating script environments for qb-garages
+[           resources] Started resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[           resources] Started resource qb-garbagejob
+[    c-scripting-core] Creating script environments for qb-hotdogjob
+[           resources] Started resource qb-hotdogjob
+[    c-scripting-core] Creating script environments for qb-houserobbery
+[           resources] Started resource qb-houserobbery
+[    c-scripting-core] Creating script environments for qb-houses
+[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[           resources] Started resource qb-hud
+[           resources] Started resource qb-input
+[    c-scripting-core] [0mCreating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[           resources] Started resource qb-inventory
+[    c-scripting-core] [0mCreating script environments for qb-jewelery
+[           resources] Started resource qb-jewelery
+[    c-scripting-core] [0mCreating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[           resources] Started resource qb-loading
+[    c-scripting-core] [0mCreating script environments for qb-management
+[           resources] Started resource qb-management
+[    c-scripting-core] Creating script environments for qb-mechanicjob
+[           resources] Started resource qb-mechanicjob
+[    c-scripting-core] Creating script environments for qb-spawn
+[           resources] Started resource qb-spawn
+[    c-scripting-core] [0mCreating script environments for qb-multicharacter
+[           resources] Started resource qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-newsjob
+[           resources] Started resource qb-newsjob
+[    c-scripting-core] [0mCreating script environments for qb-pawnshop
+[           resources] Started resource qb-pawnshop
+[    c-scripting-core] [0mCreating script environments for qb-phone
+[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[           resources] [0mStarted resource qb-policejob
+[    c-scripting-core] [0mCreating script environments for qb-prison
+[           resources] Started resource qb-prison
+[    c-scripting-core] Creating script environments for qb-radialmenu
+[           resources] Started resource qb-radialmenu
+[    c-scripting-core] [0mCreating script environments for qb-scoreboard
+[           resources] Started resource qb-scoreboard
+[    c-scripting-core] [97mCreating script environments for qb-scrapyard
+[           resources] Started resource qb-scrapyard
+[    c-scripting-core] Creating script environments for qb-smallresources
+[           resources] Started resource qb-smallresources
+[    c-scripting-core] Creating script environments for qb-storerobbery
+[           resources] Started resource qb-storerobbery
+[    c-scripting-core] Creating script environments for qb-streetraces
+[           resources] Started resource qb-streetraces
+[           resources] Started resource qb-target
+[    c-scripting-core] [0mCreating script environments for qb-taxijob
+[           resources] Started resource qb-taxijob
+[    c-scripting-core] Creating script environments for qb-towjob
+[           resources] Started resource qb-towjob
+[    c-scripting-core] [0mCreating script environments for qb-truckrobbery
+[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] [97mCreating script environments for qb-vehiclekeys
+[           resources] Started resource qb-vehiclekeys
+[    c-scripting-core] Creating script environments for qb-vehiclesales
+[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] [97mCreating script environments for qb-vineyard
+[           resources] Started resource qb-vineyard
+[    c-scripting-core] Creating script environments for qb-weed
+[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[           resources] Started resource LegacyFuel
+[           resources] [0mStarted resource bob74_ipl
+[    c-scripting-core] [0mCreating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[    c-scripting-core] [0mCreating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource menuv
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] [0mStarted resource screenshot-basic
+[    c-scripting-core] Creating script environments for cqc-mugshot
+[           resources] Started resource cqc-mugshot
+[           resources] Started resource progressbar
+[    c-scripting-core] Creating script environments for ps-adminmenu
+[           resources] Started resource ps-adminmenu
+[    c-scripting-core] [0mCreating script environments for ps-banking
+[           resources] Started resource ps-banking
+[    c-scripting-core] [0mCreating script environments for ps-camera
+[           resources] Started resource ps-camera
+[    c-scripting-core] [0mCreating script environments for ps-dispatch
+[           resources] Started resource ps-dispatch
+[    c-scripting-core] Creating script environments for ps-drugprocessing
+[           resources] Started resource ps-drugprocessing
+[    c-scripting-core] [0mCreating script environments for ps-inventory
+[           resources] Started resource ps-inventory
+[    c-scripting-core] Creating script environments for ps-mdt
+[           resources] Started resource ps-mdt
+[    c-scripting-core] Creating script environments for ps-multijob
+[           resources] Started resource ps-multijob
+[           resources] Started resource ps-props
+[           resources] Started resource ps-ui
+[    c-scripting-core] Creating script environments for rpemotes
+[     script:rpemotes] RpEmotes maintained by TayMcKenzieNZ loaded sucessfully.
+[     script:rpemotes] [rp] Sql Keybinding is turned off, if you want to enable /emotebind, set SqlKeybinding = true in config.lua and uncomment oxmysql lines in fxmanifest.lua.
+[           resources] Started resource rpemotes
+[    c-scripting-core] [0mCreating script environments for wk_wars2x
+[           resources] [0mStarted resource wk_wars2x
+[    c-scripting-core] Creating script environments for jim-chairs
+[   script:jim-chairs] Jim-Chairs v1.5 - Portable Chair Script by Jimathy
+[           resources] Started resource jim-chairs
+[    c-scripting-core] Creating script environments for jim-consumables
+[script:jim-consumabl] Jim-Consumables v1.5 - Consumables Script by Jimathy
+[           resources] Started resource jim-consumables
+[    c-resources-core] Could not find dependency xsound for resource jim-djbooth.
+[ citizen-server-impl] Couldn't start resource jim-djbooth.
+[    c-scripting-core] Creating script environments for jim-mining
+[   script:jim-mining] [0mJim-Mining vv2.4.3 - Mining Script by Jimathy
+[           resources] Started resource jim-mining
+[    c-scripting-core] [0mCreating script environments for jim-payments
+[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
+[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tequilala' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pearls' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'smokeshop' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'catcafe' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'whitewidow' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bestbuds' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'popsdiner' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'lscustoms' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'beanmachine' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'vanilla' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cluckinbell' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'hornys' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'ottos' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tuners' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'kois' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pizzathis' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cigarbar' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'upnatom' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'burgershot' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'henhouse' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bakery' and couldn't find it in the Shared
+[           resources] Started resource jim-payments
+[    c-scripting-core] Creating script environments for jim-recycle
+[  script:jim-recycle] [0mJim-Recycle v2.7.2 - Recycling Script by Jimathy
+[           resources] Started resource jim-recycle
+[    c-scripting-core] Creating script environments for jim-shops
+[    script:jim-shops] Jim-Shops v2.1 - Shop Script by Jimathy
+[           resources] Started resource jim-shops
+[    c-scripting-core] Creating script environments for jim-skateboard
+[    c-scripting-core] Failed to load script @ox_core/imports/client.lua.
+[    c-scripting-core] Failed to load script @es_extended/imports.lua.
+[    c-scripting-core] Failed to load script @qbx_core/modules/playerdata.lua.
+[script:jim-skateboar] Bridge: 'qb-core' export found 
+[script:jim-skateboar] Bridge: 'ox_lib' export found 
+[script:jim-skateboar] Bridge: 'qb-target' export found 
+[script:jim-skateboar] Bridge: 'ps-inventory' export found 
+[script:jim-skateboar] Bridge: Loading 529 Items from qb-core
+[script:jim-skateboar] Bridge: Loading 729 Vehicles from qb-core
+[script:jim-skateboar] Bridge: Loading 20 Jobs from qb-core	Bridge: Loading 7 Gangs from qb-core
+[           resources] Started resource jim-skateboard
+[           resources] Started resource jim_bridge
+[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for an-engines
+[           resources] Started resource an-engines
+[    c-scripting-core] Creating script environments for an-engineswap
+[           resources] Started resource an-engineswap
+[    c-scripting-core] Creating script environments for bl_bridge
+[    script:bl_bridge] [qb] Loaded module inventory
+[    script:bl_bridge] [0m[qb] Loaded module core
+[    script:bl_bridge] [qb] Loaded module notify
+[           resources] Started resource bl_bridge
+[    c-scripting-core] Creating script environments for bl_customs
+[           resources] Started resource bl_customs
+[    c-scripting-core] [0mCreating script environments for bl_idcard
+[           resources] Started resource bl_idcard
+[    c-scripting-core] Creating script environments for bl_vehiclemenu
+[           resources] Started resource bl_vehiclemenu
+[    c-scripting-core] [0mCreating script environments for randol_carheist
+[           resources] Started resource randol_carheist
+[    c-scripting-core] Creating script environments for randol_combatlog
+[           resources] [0mStarted resource randol_combatlog
+[    c-scripting-core] Creating script environments for randol_fingerprint
+[           resources] Started resource randol_fingerprint
+[    c-scripting-core] [0mCreating script environments for randol_grandma
+[           resources] [0mStarted resource randol_grandma
+[ citizen-server-impl] Couldn't find resource category [mlos].
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for qb-radio
+[           resources] Started resource qb-radio
+[           resources] Started resource dealer_map
+[           resources] [0mStarted resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[     script:rpemotes] [rpemotes] Currently unable to run a version check.
+[script:jim-consumabl] You are running the latest version.
+[   script:jim-chairs] You are running the latest version.
+[script:jim-skateboar] 'jim_bridge' - You are running the latest version. (1.0.14)
+[   script:an-engines]  
+[   script:an-engines] ---------- ANNALOU | ENGINES ----------
+[   script:an-engines] Engines is up to date and ready to go!
+[   script:an-engines] Running on Version: 100
+[   script:an-engines] https://github.com/Annalouu/an-engines
+[38;5;41m[   script:an-engines] -----------------------------------------------
+[   script:an-engines]  
+[38;5;179m[script:an-engineswap]  
+[script:an-engineswap] ---------- ANNALOU | ENGINE SWAP ----------
+[script:an-engineswap] Engineswap is up to date and ready to go!
+[script:an-engineswap] Running on Version: 340
+[script:an-engineswap] https://github.com/Annalouu/an-engineswap
+[script:an-engineswap] -----------------------------------------------
+[script:an-engineswap]  
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[script:jim-skateboar] Version Check: Running: 2.0.1 Latest: 2.0.
+[script:jim-skateboar] 'jim-skateboard' - You are currently running an outdated version, please update!
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://phil-macory-8b8ya5.users.cfx.re/
+[    script:wk_wars2x]  
+[    script:wk_wars2x]   //
+[    script:wk_wars2x]   ||       __      __        _ _   _        _   ___  ___   _____  __
+[    script:wk_wars2x]   ||       \ \    / / _ __ _(_) |_| |_     /_\ | _ \/ __| |_  ) \/ /
+[    script:wk_wars2x]   ||        \ \/\/ / '_/ _` | |  _| ' \   / _ \|   /\__ \  / / >  < 
+[    script:wk_wars2x]   ||         \_/\_/|_| \__,_|_|\__|_||_| /_/ \_\_|_\|___/ /___/_/\_\
+[    script:wk_wars2x]   || 
+[    script:wk_wars2x]   ||                        Created by WolfKnight
+[    script:wk_wars2x]   ||
+[    script:wk_wars2x]   ||    Current version: 1.3.1
+[    script:wk_wars2x]   ||    Latest recommended version: 1.3.1
+[    script:wk_wars2x]   ||
+[    script:wk_wars2x]   ||    Wraith ARS 2X is up to date!
+[    script:wk_wars2x]   ||
+[    script:wk_wars2x]   \\
+[    script:wk_wars2x] 
+[ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 08/08/2024, 02:27:11               
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 130 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] [0mStarted resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[           resources] Started resource NativeUI
+[           resources] Started resource RageUI
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[           resources] [0mStarted resource qb-core
+[    c-scripting-core] Creating script environments for qb-ambulancejob
+[           resources] Started resource qb-ambulancejob
+[           resources] Started resource qb-interior
+[    c-scripting-core] Creating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] Creating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[    c-scripting-core] [0mCreating script environments for PolyZone
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[           resources] Started resource qb-bankrobbery
+[    c-scripting-core] Creating script environments for qb-busjob
+[           resources] Started resource qb-busjob
+[    c-scripting-core] Creating script environments for qb-cityhall
+[           resources] Started resource qb-cityhall
+[    c-scripting-core] [0mCreating script environments for qb-crafting
+[           resources] [0mStarted resource qb-crafting
+[           resources] Started resource qb-minigames
+[    c-scripting-core] Creating script environments for qb-crypto
+[           resources] Started resource qb-crypto
+[    c-scripting-core] Creating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] [0mCreating script environments for qb-doorlock
+[           resources] Started resource qb-doorlock
+[    c-scripting-core] [0mCreating script environments for qb-drugs
+[           resources] Started resource qb-drugs
+[    c-scripting-core] [0mCreating script environments for qb-garages
+[           resources] Started resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[           resources] Started resource qb-garbagejob
+[    c-scripting-core] Creating script environments for qb-hotdogjob
+[           resources] Started resource qb-hotdogjob
+[    c-scripting-core] Creating script environments for qb-houserobbery
+[           resources] Started resource qb-houserobbery
+[    c-scripting-core] Creating script environments for qb-houses
+[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[           resources] Started resource qb-hud
+[           resources] Started resource qb-input
+[    c-scripting-core] Creating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[           resources] Started resource qb-inventory
+[    c-scripting-core] Creating script environments for qb-jewelery
+[           resources] Started resource qb-jewelery
+[    c-scripting-core] Creating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[           resources] Started resource qb-loading
+[    c-scripting-core] Creating script environments for qb-management
+[           resources] Started resource qb-management
+[    c-scripting-core] Creating script environments for qb-mechanicjob
+[           resources] [97mStarted resource qb-mechanicjob
+[    c-scripting-core] [0mCreating script environments for qb-spawn
+[           resources] Started resource qb-spawn
+[    c-scripting-core] Creating script environments for qb-multicharacter
+[           resources] [97mStarted resource qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-newsjob
+[           resources] Started resource qb-newsjob
+[    c-scripting-core] Creating script environments for qb-pawnshop
+[           resources] Started resource qb-pawnshop
+[    c-scripting-core] [0mCreating script environments for qb-phone
+[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[           resources] Started resource qb-policejob
+[    c-scripting-core] Creating script environments for qb-prison
+[           resources] [0mStarted resource qb-prison
+[    c-scripting-core] Creating script environments for qb-radialmenu
+[           resources] Started resource qb-radialmenu
+[    c-scripting-core] [0mCreating script environments for qb-scoreboard
+[           resources] Started resource qb-scoreboard
+[    c-scripting-core] [0mCreating script environments for qb-scrapyard
+[           resources] Started resource qb-scrapyard
+[    c-scripting-core] Creating script environments for qb-smallresources
+[           resources] Started resource qb-smallresources
+[    c-scripting-core] Creating script environments for qb-storerobbery
+[           resources] Started resource qb-storerobbery
+[    c-scripting-core] Creating script environments for qb-streetraces
+[           resources] Started resource qb-streetraces
+[           resources] [0mStarted resource qb-target
+[    c-scripting-core] Creating script environments for qb-taxijob
+[           resources] Started resource qb-taxijob
+[    c-scripting-core] Creating script environments for qb-towjob
+[           resources] Started resource qb-towjob
+[    c-scripting-core] [0mCreating script environments for qb-truckrobbery
+[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] [97mCreating script environments for qb-vehiclekeys
+[           resources] [0mStarted resource qb-vehiclekeys
+[    c-scripting-core] [0mCreating script environments for qb-vehiclesales
+[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] Creating script environments for qb-vineyard
+[           resources] Started resource qb-vineyard
+[    c-scripting-core] Creating script environments for qb-weed
+[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[           resources] Started resource LegacyFuel
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] [0mCreating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[    c-scripting-core] [0mCreating script environments for illenium-appearance
+[           resources] [0mStarted resource illenium-appearance
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] [0mStarted resource interact-sound
+[           resources] Started resource menuv
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for cqc-mugshot
+[           resources] Started resource cqc-mugshot
+[           resources] Started resource progressbar
+[    c-scripting-core] Creating script environments for ps-adminmenu
+[           resources] Started resource ps-adminmenu
+[    c-scripting-core] [0mCreating script environments for ps-banking
+[           resources] Started resource ps-banking
+[    c-scripting-core] Creating script environments for ps-camera
+[           resources] Started resource ps-camera
+[    c-scripting-core] Creating script environments for ps-dispatch
+[           resources] Started resource ps-dispatch
+[    c-scripting-core] Creating script environments for ps-drugprocessing
+[           resources] Started resource ps-drugprocessing
+[    c-scripting-core] Creating script environments for ps-inventory
+[           resources] Started resource ps-inventory
+[    c-scripting-core] Creating script environments for ps-mdt
+[           resources] Started resource ps-mdt
+[    c-scripting-core] Creating script environments for ps-multijob
+[           resources] Started resource ps-multijob
+[           resources] Started resource ps-props
+[           resources] Started resource ps-ui
+[    c-scripting-core] Creating script environments for rpemotes
+[     script:rpemotes] RpEmotes maintained by TayMcKenzieNZ loaded sucessfully.
+[     script:rpemotes] [rp] Sql Keybinding is turned off, if you want to enable /emotebind, set SqlKeybinding = true in config.lua and uncomment oxmysql lines in fxmanifest.lua.
+[           resources] [0mStarted resource rpemotes
+[    c-scripting-core] [0mCreating script environments for wk_wars2x
+[           resources] Started resource wk_wars2x
+[    c-scripting-core] Creating script environments for jim-chairs
+[   script:jim-chairs] Jim-Chairs v1.5 - Portable Chair Script by Jimathy
+[           resources] Started resource jim-chairs
+[    c-scripting-core] Creating script environments for jim-consumables
+[script:jim-consumabl] Jim-Consumables v1.5 - Consumables Script by Jimathy
+[           resources] Started resource jim-consumables
+[    c-resources-core] Could not find dependency xsound for resource jim-djbooth.
+[ citizen-server-impl] Couldn't start resource jim-djbooth.
+[    c-scripting-core] Creating script environments for jim-mining
+[   script:jim-mining] [0mJim-Mining vv2.4.3 - Mining Script by Jimathy
+[           resources] Started resource jim-mining
+[    c-scripting-core] Creating script environments for jim-payments
+[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
+[ script:jim-payments] Jim-Payments v2.[94m8.5 - Payments Script by Jimathy
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'kois' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'burgershot' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'upnatom' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cluckinbell' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'popsdiner' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'smokeshop' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pearls' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bestbuds' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'henhouse' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pizzathis' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'whitewidow' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'beanmachine' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'lscustoms' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tequilala' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'catcafe' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'hornys' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'vanilla' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'ottos' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tuners' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bakery' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cigarbar' and couldn't find it in the Shared
+[           resources] Started resource jim-payments
+[    c-scripting-core] Creating script environments for jim-recycle
+[  script:jim-recycle] Jim-Recycle v2.7.2 - Recycling Script by Jimathy
+[           resources] Started resource jim-recycle
+[    c-scripting-core] Creating script environments for jim-shops
+[    script:jim-shops] Jim-Shops v2.1 - Shop Script by Jimathy
+[           resources] Started resource jim-shops
+[    c-scripting-core] Creating script environments for jim-skateboard
+[    c-scripting-core] Failed to load script @ox_core/imports/client.lua.
+[    c-scripting-core] Failed to load script @es_extended/imports.lua.
+[    c-scripting-core] Failed to load script @qbx_core/modules/playerdata.lua.
+[script:jim-skateboar] Bridge: 'ox_lib' export found 
+[script:jim-skateboar] Bridge: 'qb-core' export found 
+[script:jim-skateboar] Bridge: 'qb-target' export found 
+[script:jim-skateboar] Bridge: 'ps-inventory' export found 
+[script:jim-skateboar] [0mBridge: Loading 529 Items from qb-core
+[script:jim-skateboar] Bridge: Loading 729 Vehicles from qb-core
+[script:jim-skateboar] Bridge: Loading 20 Jobs from qb-core	Bridge: Loading 7 Gangs from qb-core
+[           resources] Started resource jim-skateboard
+[           resources] Started resource jim_bridge
+[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for an-engines
+[           resources] Started resource an-engines
+[    c-scripting-core] [0mCreating script environments for an-engineswap
+[           resources] Started resource an-engineswap
+[    c-scripting-core] Creating script environments for bl_bridge
+[    script:bl_bridge] [qb] Loaded module inventory
+[    script:bl_bridge] [qb] Loaded module core
+[    script:bl_bridge] [qb] Loaded module notify
+[           resources] Started resource bl_bridge
+[    c-scripting-core] Creating script environments for bl_customs
+[           resources] Started resource bl_customs
+[    c-scripting-core] Creating script environments for bl_idcard
+[           resources] [0mStarted resource bl_idcard
+[    c-scripting-core] [0mCreating script environments for bl_vehiclemenu
+[           resources] Started resource bl_vehiclemenu
+[    c-scripting-core] Creating script environments for randol_carheist
+[           resources] Started resource randol_carheist
+[    c-scripting-core] Creating script environments for randol_combatlog
+[           resources] Started resource randol_combatlog
+[    c-scripting-core] [0mCreating script environments for randol_fingerprint
+[           resources] Started resource randol_fingerprint
+[    c-scripting-core] [0mCreating script environments for randol_grandma
+[           resources] Started resource randol_grandma
+[ citizen-server-impl] Couldn't find resource category [mlos].
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/b7r_livery8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] [94mAsset Lorefriendly-Cars-pack.1.0/b7r_livery9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/benson2.ytd uses 40.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv16.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/cliq2_liv9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/euros_livery1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/euros_livery2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/euros_livery3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/euros_livery4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/euros_livery5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/euros_livery6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/euros_livery7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/eva_liv1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/eva_liv2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/eva_liv4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery1.yft uses 32.0 MiB of physical memory.[0m
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/exr_livery9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/gauntletc_livery6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/gauntletc_livery7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/hotwee_liv9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery01.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery02.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery03.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery04.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery05.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery06.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery07.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery08.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery09.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery16.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery17.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery18.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery19.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery20.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery21.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery22.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery23.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery24.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery25.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery26.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery27.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery28.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery29.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/kriegerc_livery30.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/nspeedo.ytd uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv16.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv17.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/pano3_liv9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv16.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv17.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox2_liv9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv16.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv17.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv18.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv19.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv20.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv21.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv22.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv23.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv24.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv25.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv26.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv27.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv28.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv29.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv30.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv31.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv32.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv33.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv34.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv35.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv36.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paradox_liv9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paragon_livery0.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/paragon_livery0a.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_10a.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_16.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_17.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_18.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_19.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_1a.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_20.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_21.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_22.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_23.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_24.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_25.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_26.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_27.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_28.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_29.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_30.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_31.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_32.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_33.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_34.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_35.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_36.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_37.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/rox_liv_8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/spritzerdtm_livery5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/spritzerdtm_livery6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/spritzerdtm_livery7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/spritzerdtm_livery8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery01.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery02.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery03.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery04.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery05.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery06.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery07.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/squaddier_livery08.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery12.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery15.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery16.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery17.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery18.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery19.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery20.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery21.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery22.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery23.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery24.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery25.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery27.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery28.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery29.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery30.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery31.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery32.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/vulture_livery9.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zion4.ytd uses 21.1 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_1.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_10.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_11.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_13.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_14.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_2.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_3.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_4.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_5.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_6.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_7.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_8.yft uses 32.0 MiB of physical memory.
+[resources:Lorefriend] Asset Lorefriendly-Cars-pack.1.0/zr380s_livery_9.yft uses 32.0 MiB of physical memory.
+[           resources] Started resource Lorefriendly-Cars-pack.1.0 (261 warnings)
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for qb-radio
+[           resources] Started resource qb-radio
+[           resources] Started resource dealer_map
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[     script:rpemotes] [rpemotes] Currently unable to run a version check.
+[   script:jim-chairs] You are running the latest version.
+[script:jim-consumabl] You are running the latest version.
+[script:jim-skateboar] 'jim_bridge' - You are running the latest version. (1.0.14)
+[   script:an-engines]  
+[   script:an-engines] ---------- ANNALOU | ENGINES ----------
+[   script:an-engines] Engines is up to date and ready to go!
+[   script:an-engines] Running on Version: 100
+[   script:an-engines] https://github.com/Annalouu/an-engines
+[   script:an-engines] -----------------------------------------------
+[   script:an-engines]  
+[script:an-engineswap]  
+[script:an-engineswap] ---------- ANNALOU | ENGINE SWAP ----------
+[script:an-engineswap] Engineswap is up to date and ready to go!
+[script:an-engineswap] Running on Version: 340
+[script:an-engineswap] https://github.com/Annalouu/an-engineswap
+[script:an-engineswap] -----------------------------------------------
+[script:an-engineswap]  
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://phil-macory-8b8ya5.users.cfx.re/
+[script:jim-skateboar] [0mVersion Check: Running: 2.0.1 Latest: 2.0.
+[script:jim-skateboar] 'jim-skateboard' - You are currently running an outdated version, please update!
+[    script:wk_wars2x]  
+[    script:wk_wars2x]   //
+[    script:wk_wars2x]   ||       __      __        _ _   _        _   ___  ___   _____  __
+[    script:wk_wars2x]   ||       \ \    / / _ __ _(_) |_| |_     /_\ | _ \/ __| |_  ) \/ /
+[    script:wk_wars2x]   ||        \ \/\/ / '_/ _` | |  _| ' \   / _ \|   /\__ \  / / >  < 
+[    script:wk_wars2x]   ||         \_/\_/|_| \__,_|_|\__|_||_| /_/ \_\_|_\|___/ /___/_/\_\
+[    script:wk_wars2x]   || 
+[    script:wk_wars2x]   ||                        Created by WolfKnight
+[    script:wk_wars2x]   ||
+[    script:wk_wars2x]   ||    Current version: 1.3.1
+[    script:wk_wars2x]   ||    Latest recommended version: 1.3.1
+[    script:wk_wars2x]   ||
+[    script:wk_wars2x]   ||    Wraith ARS 2X is up to date!
+[    script:wk_wars2x]   ||
+[    script:wk_wars2x]   \\
+[    script:wk_wars2x] 
+[ citizen-server-main] -> Quitting: SIGHUP received
