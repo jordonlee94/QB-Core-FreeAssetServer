@@ -46,7 +46,6 @@ CustomDP.PropEmotes = {
         EmoteLoop = true,
         EmoteMoving = true,
     }},
-    	['terminal'] 			 = {['name'] = 'terminal', 				['label'] = 'Wireless Terminal', 				['weight'] = 5000, 		["type"] = "item", 		["image"] = 'terminal.png', 		['unique'] = true, 		['useable'] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ['description'] = ''},
 
      --Jim-BurgerShot
    ["milk"] = {"mp_player_intdrink", "loop_bottle", "Milk", AnimationOptions =

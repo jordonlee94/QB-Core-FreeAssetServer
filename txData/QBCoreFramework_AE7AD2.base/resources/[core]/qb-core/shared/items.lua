@@ -218,10 +218,42 @@ QBShared.Items = {
     emp_ammo                     = { name = 'emp_ammo', label = 'EMP Ammo', weight = 200, type = 'item', image = 'emp_ammo.png', unique = false, useable = true, shouldClose = true, description = 'Ammo for EMP Launcher' },
 
     -- Card ITEMS
-    id_card                      = { name = 'id_card', label = 'ID Card', weight = 0, type = 'item', image = 'id_card.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your information to identify yourself' },
-    driver_license               = { name = 'driver_license', label = 'Drivers License', weight = 0, type = 'item', image = 'driver_license.png', unique = true, useable = true, shouldClose = false, description = 'Permit to show you can drive a vehicle' },
-    lawyerpass                   = { name = 'lawyerpass', label = 'Lawyer Pass', weight = 0, type = 'item', image = 'lawyerpass.png', unique = true, useable = true, shouldClose = false, description = 'Pass exclusive to lawyers to show they can represent a suspect' },
-    weaponlicense                = { name = 'weaponlicense', label = 'Weapon License', weight = 0, type = 'item', image = 'weapon_license.png', unique = true, useable = true, shouldClose = true, description = 'Weapon License' },
+     ['id_card']  = {
+        name = 'id_card',
+        label = 'ID Card',
+        weight = 0,
+        type = 'item',
+        description = 'A card containing all your information to identify yourself',
+        unique = true,
+        useable = true,
+        image = 'id_card.png',
+        combinable = nil,
+    },
+
+    ['driver_license'] = {
+        name = 'driver_license',
+        label = 'Drivers License',
+        weight = 0,
+        type = 'item',
+        description = 'Permit to show you can drive a vehicle',
+        unique = true,
+        useable = true,
+        image = 'driver_license.png',
+        combinable = nil,
+    },
+
+    ['weaponlicense'] = {
+        name = 'weaponlicense',
+        label = 'Weapon License',
+        weight = 0,
+        type = 'item',
+        description = 'Weapon License',
+        unique = true,
+        useable = true,
+        image = 'weaponlicense.png',
+        combinable = nil,
+    },
+      lawyerpass                   = { name = 'lawyerpass', label = 'Lawyer Pass', weight = 0, type = 'item', image = 'lawyerpass.png', unique = true, useable = true, shouldClose = false, description = 'Pass exclusive to lawyers to show they can represent a suspect' },
     bank_card                    = { name = 'bank_card', label = 'Bank Card', weight = 0, type = 'item', image = 'bank_card.png', unique = true, useable = true, shouldClose = true, description = 'Used to access ATM' },
     security_card_01             = { name = 'security_card_01', label = 'Security Card A', weight = 0, type = 'item', image = 'security_card_01.png', unique = false, useable = true, shouldClose = true, description = 'A security card... I wonder what it goes to' },
     security_card_02             = { name = 'security_card_02', label = 'Security Card B', weight = 0, type = 'item', image = 'security_card_02.png', unique = false, useable = true, shouldClose = true, description = 'A security card... I wonder what it goes to' },
@@ -607,5 +639,10 @@ keya                         = {name = "keya",                          label = 
 ["sprunklight"] = {["name"] = "sprunklight", ["label"] = "Sprunk Light", ["weight"] = 100, ["type"] = "item", ["image"] = "sprunklight.png", ["unique"] = false,     ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "", ['thirst'] = math.random(20, 30) },
 ["ecola"] = {["name"] = "ecola", ["label"] = "eCola", ["weight"] = 100, ["type"] = "item", ["image"] = "ecola.png", ["unique"] = false, ["useable"] = true,     ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "", ['thirst'] = math.random(20, 30) },
 ["ecolalight"] = {["name"] = "ecolalight", ["label"] = "eCola Light", ["weight"] = 100, ["type"] = "item", ["image"] = "ecolalight.png", ["unique"] = false,     ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "", ['thirst'] = math.random(20, 30) },
-
+	-- mz-storerobbery
+	["liquorkey"] 					 = {["name"] = "liquorkey", 					["label"] = "Liquor Storeroom", 		["weight"] = 200, 		["type"] = "item", 		["image"] = "liquorkey.png", 			["unique"] = false, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A curious key with the label 'Liquor Storeroom'."},
+    ["dirtymoney"]                   = {["name"] = "dirtymoney",                    ["label"] = "Dirty Money",              ["weight"] = 0,         ["type"] = "item",      ["image"] = "dirtymoney.png",           ["unique"] = false,		["useable"] = true,     ["shouldClose"] = false,    ["combinable"] = nil,  ["description"] = "The ill-gotten proceeds of criminal activity."}, 
+    	['usb2'] 				 	 	 = {['name'] = 'usb2', 			  	  			['label'] = 'Red USB', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'usbred.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'The Blank USB has downloaded a particular encryption marking it red.'},
+      heist_papers                   = { name = 'heist_papers', label = 'Vehicle Papers', weight = 200, type = 'item', image = 'heist_papers.png', unique = true, useable = true, shouldClose = true, description = 'Heist Papers' },
+      policetablet                   = { name = 'policetablet', label = 'Police Tablet', weight = 5000, type = 'item', image = 'policetablet.png', unique = true, useable = true, shouldClose = true, description = 'A mobile fingerprint tablet'},
 }

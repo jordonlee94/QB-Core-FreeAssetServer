@@ -1,29 +1,28 @@
 
 ================================================================
-======== Log Rotated - 04/08/2024, 01:21:15                     
+======== Log Rotated - 08/08/2024, 01:55:15                     
 ================================================================
 
 ================================================================
-======== FXServer Starting - 04/08/2024, 01:22:52               
+======== FXServer Starting - 08/08/2024, 01:55:17               
 ================================================================
 [           resources] Scanning resources.
-[   resources:qb-menu] Warning: qb-menu exists in more than one place (C:\Users\leejo\Desktop\QB-CoreFreeAssetServer\QB-Core-FreeAssetServer\txData\QBCoreFramework_AE7AD2.base\resources\[jimathy]\qb-menu is used, the duplicate is C:\Users\leejo\Desktop\QB-CoreFreeAssetServer\QB-Core-FreeAssetServer\txData\QBCoreFramework_AE7AD2.base\resources\[qb]\qb-menu)
-[           resources] Found 119 resources.
-[           resources] 1 warning was encountered.
+[           resources] Found 127 resources.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
 [    c-scripting-core] Creating script environments for sessionmanager
 [           resources] Started resource sessionmanager
-[    c-scripting-core] Creating script environments for monitor
+[    c-scripting-core] [0mCreating script environments for monitor
 [      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
 [           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for mapmanager
+[    c-scripting-core] [97mCreating script environments for mapmanager
 [           resources] Started resource mapmanager
 [    c-scripting-core] Creating script environments for yarn
 [           resources] Started resource yarn
-[ citizen-server-impl] [97mRunning build tasks on resource webpack - it'll restart once completed.
-[    c-resources-core] Could not start dependency webpack for resource chat.
-[ citizen-server-impl] Couldn't start resource chat.
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
 [           resources] Started resource spawnmanager
 [   script:mapmanager] Started gametype Freeroam
 [           resources] Started resource basic-gamemode
@@ -31,35 +30,39 @@
 [           resources] Started resource hardcap
 [    c-scripting-core] Creating script environments for baseevents
 [           resources] Started resource baseevents
+[           resources] Started resource NativeUI
+[           resources] Started resource RageUI
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
 [    c-scripting-core] Creating script environments for oxmysql
 [           resources] Started resource oxmysql
 [    c-scripting-core] Creating script environments for qb-core
-[           resources] [0mStarted resource qb-core
+[      script:qb-core] Error parsing script @qb-core/shared/items.lua in resource qb-core: @qb-core/shared/items.lua:647: unfinished string near ''A mobile fingerprint tablet'
+[38;5;161m[    c-scripting-core] Failed to load script shared/items.lua.
+[           resources] Started resource qb-core
 [    c-scripting-core] Creating script environments for qb-ambulancejob
 [           resources] Started resource qb-ambulancejob
-[           resources] [0mStarted resource qb-interior
-[    c-scripting-core] Creating script environments for qb-clothing
-[           resources] Started resource qb-clothing
+[           resources] Started resource qb-interior
 [    c-scripting-core] Creating script environments for qb-weathersync
 [           resources] Started resource qb-weathersync
-[    c-scripting-core] [0mCreating script environments for qb-apartments
+[    c-scripting-core] Creating script environments for qb-apartments
 [           resources] Started resource qb-apartments
 [    c-scripting-core] Creating script environments for PolyZone
-[           resources] Started resource PolyZone
+[           resources] [0mStarted resource PolyZone
 [    c-scripting-core] Creating script environments for qb-bankrobbery
-[           resources] Started resource qb-bankrobbery
+[           resources] [97mStarted resource qb-bankrobbery
 [    c-scripting-core] Creating script environments for qb-busjob
 [           resources] Started resource qb-busjob
 [    c-scripting-core] Creating script environments for qb-cityhall
-[           resources] Started resource qb-cityhall
-[    c-scripting-core] Creating script environments for qb-crafting
+[           resources] [0mStarted resource qb-cityhall
+[    c-scripting-core] [0mCreating script environments for qb-crafting
 [           resources] Started resource qb-crafting
-[           resources] Started resource qb-minigames
+[           resources] [0mStarted resource qb-minigames
 [    c-scripting-core] Creating script environments for qb-crypto
 [           resources] Started resource qb-crypto
-[    c-scripting-core] [0mCreating script environments for qb-diving
+[    c-scripting-core] Creating script environments for qb-diving
 [           resources] Started resource qb-diving
-[    c-scripting-core] [0mCreating script environments for qb-doorlock
+[    c-scripting-core] Creating script environments for qb-doorlock
 [           resources] Started resource qb-doorlock
 [    c-scripting-core] Creating script environments for qb-drugs
 [           resources] Started resource qb-drugs
@@ -78,14 +81,14 @@
 [           resources] Started resource qb-input
 [    c-scripting-core] Creating script environments for qb-weapons
 [           resources] [0mStarted resource qb-weapons
-[    c-scripting-core] Creating script environments for qb-inventory
+[    c-scripting-core] [0mCreating script environments for qb-inventory
 [           resources] Started resource qb-inventory
 [    c-scripting-core] Creating script environments for qb-jewelery
 [           resources] Started resource qb-jewelery
-[    c-scripting-core] Creating script environments for qb-lapraces
+[    c-scripting-core] [0mCreating script environments for qb-lapraces
 [           resources] Started resource qb-lapraces
 [           resources] Started resource qb-loading
-[    c-scripting-core] [0mCreating script environments for qb-management
+[    c-scripting-core] Creating script environments for qb-management
 [           resources] Started resource qb-management
 [    c-scripting-core] Creating script environments for qb-mechanicjob
 [           resources] Started resource qb-mechanicjob
@@ -105,21 +108,17 @@
 [           resources] Started resource qb-prison
 [    c-scripting-core] Creating script environments for qb-radialmenu
 [           resources] Started resource qb-radialmenu
-[    c-scripting-core] Creating script environments for qb-recyclejob
-[           resources] Started resource qb-recyclejob
 [    c-scripting-core] Creating script environments for qb-scoreboard
-[           resources] [0mStarted resource qb-scoreboard
+[           resources] Started resource qb-scoreboard
 [    c-scripting-core] Creating script environments for qb-scrapyard
 [           resources] Started resource qb-scrapyard
-[    c-scripting-core] Creating script environments for qb-shops
-[           resources] Started resource qb-shops
 [    c-scripting-core] Creating script environments for qb-smallresources
 [           resources] Started resource qb-smallresources
 [    c-scripting-core] Creating script environments for qb-storerobbery
 [           resources] Started resource qb-storerobbery
 [    c-scripting-core] Creating script environments for qb-streetraces
 [           resources] Started resource qb-streetraces
-[           resources] [0mStarted resource qb-target
+[           resources] Started resource qb-target
 [    c-scripting-core] Creating script environments for qb-taxijob
 [           resources] Started resource qb-taxijob
 [    c-scripting-core] Creating script environments for qb-towjob
@@ -133,9 +132,9 @@
 [    c-scripting-core] Creating script environments for qb-vehicleshop
 [           resources] Started resource qb-vehicleshop
 [    c-scripting-core] Creating script environments for qb-vineyard
-[           resources] [0mStarted resource qb-vineyard
+[           resources] Started resource qb-vineyard
 [    c-scripting-core] Creating script environments for qb-weed
-[           resources] [0mStarted resource qb-weed
+[           resources] Started resource qb-weed
 [    c-scripting-core] Creating script environments for LegacyFuel
 [           resources] Started resource LegacyFuel
 [           resources] Started resource bob74_ipl
@@ -144,251 +143,24 @@
 [           resources] Stopping resource hardcap
 [           resources] Started resource connectqueue
 [    c-scripting-core] Creating script environments for illenium-appearance
-[script:illenium-appe] SCRIPT ERROR: ox_lib must be started before this resource.
-[script:illenium-appe] > fn (@ox_lib/init.lua:23)
-[script:illenium-appe] SCRIPT ERROR: @illenium-appearance/server/framework/qb/migrate.lua:72: attempt to index a nil value (global 'lib')
-[script:illenium-appe] > fn (@illenium-appearance/server/framework/qb/migrate.lua:72)
-[script:illenium-appe] SCRIPT ERROR: @illenium-appearance/server/server.lua:44: attempt to index a nil value (global 'lib')
-[script:illenium-appe] > fn (@illenium-appearance/server/server.lua:44)
-[script:illenium-appe] SCRIPT ERROR: @illenium-appearance/server/permissions.lua:4: attempt to index a nil value (global 'lib')
-[script:illenium-appe] > fn (@illenium-appearance/server/permissions.lua:4)
-[           resources] Started resource illenium-appearance
-[    c-scripting-core] Creating script environments for interact-sound
-[           resources] Started resource interact-sound
-[           resources] Started resource menuv
-[           resources] Started resource safecracker
-[ citizen-server-impl] Running build tasks on resource webpack - it'll restart once completed.
-[    c-resources-core] Could not start dependency webpack for resource screenshot-basic.
-[ citizen-server-impl] Couldn't start resource screenshot-basic.
-[    c-scripting-core] Creating script environments for cqc-mugshot
-[           resources] Started resource cqc-mugshot
-[           resources] Started resource progressbar
-[    c-scripting-core] Creating script environments for ps-adminmenu
-[ script:ps-adminmenu] SCRIPT ERROR: ox_lib must be started before this resource.
-[ script:ps-adminmenu] > fn (@ox_lib/init.lua:23)
-[ script:ps-adminmenu] SCRIPT ERROR: @ps-adminmenu/server/chat.lua:21: attempt to index a nil value (global 'lib')
-[ script:ps-adminmenu] > fn (@ps-adminmenu/server/chat.lua:21)
-[ script:ps-adminmenu] SCRIPT ERROR: @ps-adminmenu/server/main.lua:3: attempt to index a nil value (global 'lib')
-[ script:ps-adminmenu] SCRIPT ERROR: @ps-adminmenu/server/players.lua:57: attempt to index a nil value (global 'lib')
-[ script:ps-adminmenu] > fn (@ps-adminmenu/server/players.lua:57)
-[ script:ps-adminmenu] SCRIPT ERROR: @ps-adminmenu/server/regcommands.lua:17: attempt to index a nil value (global 'lib')
-[ script:ps-adminmenu] > fn (@ps-adminmenu/server/regcommands.lua:17)
-[ script:ps-adminmenu] SCRIPT ERROR: @ps-adminmenu/server/resources.lua:3: attempt to index a nil value (global 'lib')
-[ script:ps-adminmenu] > fn (@ps-adminmenu/server/resources.lua:3)
-[ script:ps-adminmenu] SCRIPT ERROR: @ps-adminmenu/server/utils.lua:58: attempt to index a nil value (global 'lib')
-[ script:ps-adminmenu] > fn (@ps-adminmenu/server/utils.lua:58)
-[ script:ps-adminmenu] SCRIPT ERROR: @ps-adminmenu/server/vehicle.lua:131: attempt to index a nil value (global 'lib')
-[ script:ps-adminmenu] > fn (@ps-adminmenu/server/vehicle.lua:131)
-[           resources] Started resource ps-adminmenu
-[    c-scripting-core] Creating script environments for ox_lib
-[           resources] Started resource ox_lib
-[    c-scripting-core] Creating script environments for ps-banking
-[           resources] Started resource ps-banking
-[    c-scripting-core] Creating script environments for ps-camera
-[           resources] Started resource ps-camera
-[    c-scripting-core] Creating script environments for ps-dispatch
-[           resources] Started resource ps-dispatch
-[    c-scripting-core] Creating script environments for ps-drugprocessing
-[           resources] Started resource ps-drugprocessing
-[    c-scripting-core] Creating script environments for ps-inventory
-[ script:ps-inventory] Error parsing script @ps-inventory/server/main.lua in resource ps-inventory: @ps-inventory/server/main.lua:2275: unexpected symbol near ')'
-[    c-scripting-core] Failed to load script server/main.lua.
-[           resources] Started resource ps-inventory
-[    c-scripting-core] Creating script environments for ps-mdt
-[           resources] Started resource ps-mdt
-[    c-scripting-core] Creating script environments for ps-multijob
-[           resources] [0mStarted resource ps-multijob
-[           resources] Started resource ps-props
-[           resources] Started resource ps-ui
-[    c-scripting-core] Creating script environments for rpemotes
-[     script:rpemotes] RpEmotes maintained by TayMcKenzieNZ loaded sucessfully.
-[     script:rpemotes] [rp] Sql Keybinding is turned off, if you want to enable /emotebind, set SqlKeybinding = true in config.lua and uncomment oxmysql lines in fxmanifest.lua.
-[           resources] Started resource rpemotes
-[    c-scripting-core] Creating script environments for wk_wars2x
-[           resources] Started resource wk_wars2x
-[    c-scripting-core] Creating script environments for jim-chairs
-[   script:jim-chairs] Jim-Chairs v1.5 - Portable Chair Script by Jimathy
-[           resources] [0mStarted resource jim-chairs
-[    c-scripting-core] Creating script environments for jim-mining
-[   script:jim-mining] Jim-Mining vv2.4.3 - Mining Script by Jimathy
-[           resources] Started resource jim-mining
-[    c-scripting-core] Creating script environments for jim-payments
-[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'lscustoms' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pizzathis' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'upnatom' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'beanmachine' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pearls' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cluckinbell' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'catcafe' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'burgershot' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'henhouse' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tequilala' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tuners' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bakery' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bestbuds' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'whitewidow' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'popsdiner' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'kois' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cigarbar' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'smokeshop' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'hornys' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'vanilla' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'ottos' and couldn't find it in the Shared
-[           resources] Started resource jim-payments
-[    c-scripting-core] Creating script environments for jim-recycle
-[  script:jim-recycle] Jim-Recycle v2.7.2 - Recycling Script by Jimathy
-[           resources] Started resource jim-recycle
-[    c-scripting-core] [0mCreating script environments for jim-skateboard
-[    c-scripting-core] Failed to load script @ox_core/imports/client.lua.
-[    c-scripting-core] Failed to load script @es_extended/imports.lua.
-[    c-scripting-core] Failed to load script @qbx_core/modules/playerdata.lua.
-[script:jim-skateboar] Bridge: 'qb-target' [32mexport found 
-[script:jim-skateboar] Bridge: 'qb-core' export found 
-[script:jim-skateboar] Bridge: 'ox_lib' export found 
-[script:jim-skateboar] Bridge: 'ps-inventory' export found 
-[script:jim-skateboar] Bridge: Loading 520 Items from qb-core
-[script:jim-skateboar] Bridge: Loading 729 Vehicles from qb-core
-[script:jim-skateboar] Bridge: Loading 20 Jobs from qb-core	Bridge: Loading 7 Gangs from qb-core
-[           resources] Started resource jim-skateboard
-[           resources] Started resource jim_bridge
-[           resources] Started resource qb-menu
-[    c-scripting-core] Creating script environments for pma-voice
-[           resources] [0mStarted resource pma-voice
-[    c-scripting-core] Creating script environments for qb-radio
-[           resources] Started resource qb-radio
-[           resources] Started resource dealer_map
-[           resources] Started resource hospital_map
-[           resources] Started resource prison_canteen
-[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
-[           resources] Started resource prison_main (1 warning)
-[           resources] Started resource prison_meeting
-[         script:yarn] [yarn]	yarn install v1.22.5
-[         script:yarn] [1/4] Resolving packages...
-[         script:yarn] [2/4] Fetching packages...
-[         script:yarn] info fsevents@2.3.1: The platform "win32" is incompatible with this module.
-[         script:yarn] info "fsevents@2.3.1" is an optional dependency and failed compatibility check. Excluding it from installation.
-[         script:yarn] info fsevents@1.2.13: The platform "win32" is incompatible with this module.
-[         script:yarn] info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
-[         script:yarn] [3/4] Linking dependencies...
-[         script:yarn] [yarn]	yarn install v1.22.5
-[         script:yarn] Error: [yarn]	warning Waiting for the other yarn instance to finish (pid undefined, inside undefined)
-[     script:rpemotes] [rpemotes] Currently unable to run a version check.
-[   script:jim-chairs] You are running the latest version.
-[script:jim-skateboar] 'jim_bridge' - You are running the latest version. (1.0.14)
-[   script:mapmanager] Started map fivem-map-hipster
-[           resources] [0mStarted resource fivem-map-hipster
-[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
-[ citizen-server-impl]         fff                          
-[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[38;5;73m[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://phil-macory-8b8ya5.users.cfx.re/
-[script:jim-skateboar] Version Check: Running: 2.0.1 Latest: 2.0.
-[script:jim-skateboar] 'jim-skateboard' - You are currently running an outdated version, please update!
-[         script:yarn] [yarn]	[4/4] Building fresh packages...
-[         script:yarn] Error: [yarn]	warning Ignored scripts due to flag.
-[         script:yarn] [yarn]	Done in 7.07s.
-[ citizen-server-impl] Build tasks completed - starting resource webpack.
-[    c-scripting-core] [0mCreating script environments for webpack
-[ citizen-server-impl] Running build tasks on resource chat - it'll restart once completed.
-[ citizen-server-impl] Running build tasks on resource screenshot-basic - it'll restart once completed.
-[         script:yarn] yarn is currently busy: we are waiting to compile screenshot-basic
-[38;5;83m[           resources] Started resource webpack
-[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
-[         script:yarn] [yarn]	[1/4] Resolving packages...
-[         script:yarn] [yarn]	success Already up-to-date.
-[         script:yarn] [yarn]	Done in 3.02s.
-[ citizen-server-impl] Build tasks completed - starting resource webpack.
-[         script:yarn] [yarn]	yarn install v1.22.5
-[         script:yarn] [yarn]	[1/4] Resolving packages...
-[       script:ps-mdt] A webhook is missing in: ClockinWebhook (server > main.lua > line 24)
-[         script:yarn] [yarn]	[2/4] Fetching packages...
-[    script:wk_wars2x]  
-[38;5;211m[    script:wk_wars2x]   //
-[    script:wk_wars2x]   ||       __      __        _ _   _        _   ___  ___   _____  __
-[    script:wk_wars2x]   ||       \ \    / / _ __ _(_) |_| |_     /_\ | _ \/ __| |_  ) \/ /
-[    script:wk_wars2x]   ||        \ \/\/ / '_/ _` | |  _| ' \   / _ \|   /\__ \  / / >  < 
-[    script:wk_wars2x]   ||         \_/\_/|_| \__,_|_|\__|_||_| /_/ \_\_|_\|___/ /___/_/\_\
-[    script:wk_wars2x]   || 
-[    script:wk_wars2x]   ||                        Created by WolfKnight
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   ||    Current version: 1.3.1
-[    script:wk_wars2x]   ||    Latest recommended version: 1.3.1
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   ||    Wraith ARS 2X is up to date!
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   \\
-[    script:wk_wars2x] 
-[         script:yarn] [yarn]	yarn install v1.22.5
-[         script:yarn] Error: [yarn]	warning Waiting for the other yarn instance to finish (pid undefined, inside undefined)
-[         script:yarn] [yarn]	info fsevents@1.2.11: The platform "win32" is incompatible with this module.
-[         script:yarn] [yarn]	info "fsevents@1.2.11" is an optional dependency and failed compatibility check. Excluding it from installation.
-[         script:yarn] [yarn]	[3/4] Linking dependencies...
-[         script:yarn] [yarn]	[4/4] Building fresh packages...
-[         script:yarn] Error: [yarn]	warning Ignored scripts due to flag.
-[         script:yarn] [yarn]	Done in 14.54s.
-[      script:webpack] chat: started building webpack.config.js
-[ citizen-server-impl] [0mserver thread hitch warning: timer interval of 12334 milliseconds
-[         script:yarn] [yarn]	[1/4] Resolving packages...
-[         script:yarn] [2/4] Fetching packages...
-[         script:yarn] info fsevents@2.3.1: The platform "win32" is incompatible with this module.
-[         script:yarn] info "fsevents@2.3.1" is an optional dependency and failed compatibility check. Excluding it from installation.
-[         script:yarn] info fsevents@1.2.13: The platform "win32" is incompatible with this module.
-[         script:yarn] info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
-[         script:yarn] [3/4] Linking dependencies...
-[         script:yarn] [4/4] Building fresh packages...
-[         script:yarn] Done in 20.90s.
-[         script:yarn] Error: [yarn]	warning Ignored scripts due to flag.
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
-[      script:webpack] chat: built webpack.config.js
-[ citizen-server-impl] Build tasks completed - starting resource chat.
-[    c-scripting-core] Creating script environments for chat
-[           resources] Started resource chat
-[      script:webpack] screenshot-basic: started building client.config.js
-[      script:webpack] [0mwebpack is busy: we are waiting to compile screenshot-basic (server.config.js)
-[ citizen-server-impl] server thread hitch warning: timer interval of 4140 milliseconds
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (server.config.js)
-[      script:webpack] screenshot-basic: built client.config.js
-[      script:webpack] screenshot-basic: started building server.config.js
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (ui.config.js)
-[ citizen-server-impl] server thread hitch warning: timer interval of 3136 milliseconds
-[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (ui.config.js)
-[      script:webpack] screenshot-basic: built server.config.js
-[      script:webpack] screenshot-basic: started building ui.config.js
-[      script:webpack] screenshot-basic: built ui.config.js
-[ citizen-server-impl] Build tasks completed - starting resource screenshot-basic.
-[    c-scripting-core] Creating script environments for screenshot-basic
-[           resources] Started resource screenshot-basic
-> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂phil-macory＂,＂message＂:＂Server restarting (requested by phil-macory).＂}"
-[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
 
 ================================================================
-======== FXServer Starting - 04/08/2024, 01:24:10               
+======== FXServer Starting - 08/08/2024, 01:56:11               
 ================================================================
 [           resources] Scanning resources.
-[   resources:qb-menu] Warning: qb-menu exists in more than one place (C:\Users\leejo\Desktop\QB-CoreFreeAssetServer\QB-Core-FreeAssetServer\txData\QBCoreFramework_AE7AD2.base\resources\[jimathy]\qb-menu is used, the duplicate is C:\Users\leejo\Desktop\QB-CoreFreeAssetServer\QB-Core-FreeAssetServer\txData\QBCoreFramework_AE7AD2.base\resources\[qb]\qb-menu)
-[           resources] Found 119 resources.
-[           resources] 1 warning was encountered.
+[           resources] Found 127 resources.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for sessionmanager
+[    c-scripting-core] [0mCreating script environments for sessionmanager
 [           resources] Started resource sessionmanager
 [    c-scripting-core] Creating script environments for monitor
 [      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
 [           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for mapmanager
+[    c-scripting-core] [0mCreating script environments for mapmanager
 [           resources] Started resource mapmanager
-[    c-scripting-core] Creating script environments for yarn
+[    c-scripting-core] [97mCreating script environments for yarn
 [           resources] Started resource yarn
-[    c-scripting-core] Creating script environments for webpack
+[    c-scripting-core] [0mCreating script environments for webpack
 [           resources] Started resource webpack
 [    c-scripting-core] Creating script environments for chat
 [           resources] Started resource chat
@@ -403,15 +175,13 @@
 [           resources] Started resource RageUI
 [    c-scripting-core] Creating script environments for ox_lib
 [           resources] Started resource ox_lib
-[    c-scripting-core] [97mCreating script environments for oxmysql
+[    c-scripting-core] Creating script environments for oxmysql
 [           resources] Started resource oxmysql
 [    c-scripting-core] Creating script environments for qb-core
 [           resources] Started resource qb-core
-[    c-scripting-core] [0mCreating script environments for qb-ambulancejob
+[    c-scripting-core] Creating script environments for qb-ambulancejob
 [           resources] Started resource qb-ambulancejob
 [           resources] Started resource qb-interior
-[    c-scripting-core] Creating script environments for qb-clothing
-[           resources] Started resource qb-clothing
 [    c-scripting-core] Creating script environments for qb-weathersync
 [           resources] Started resource qb-weathersync
 [    c-scripting-core] Creating script environments for qb-apartments
@@ -420,7 +190,7 @@
 [           resources] Started resource PolyZone
 [    c-scripting-core] Creating script environments for qb-bankrobbery
 [           resources] Started resource qb-bankrobbery
-[    c-scripting-core] [97mCreating script environments for qb-busjob
+[    c-scripting-core] Creating script environments for qb-busjob
 [           resources] Started resource qb-busjob
 [    c-scripting-core] Creating script environments for qb-cityhall
 [           resources] Started resource qb-cityhall
@@ -430,11 +200,11 @@
 [    c-scripting-core] Creating script environments for qb-crypto
 [           resources] Started resource qb-crypto
 [    c-scripting-core] Creating script environments for qb-diving
-[           resources] Started resource qb-diving
+[           resources] [0mStarted resource qb-diving
 [    c-scripting-core] Creating script environments for qb-doorlock
 [           resources] Started resource qb-doorlock
-[    c-scripting-core] Creating script environments for qb-drugs
-[           resources] Started resource qb-drugs
+[    c-scripting-core] [0mCreating script environments for qb-drugs
+[           resources] [0mStarted resource qb-drugs
 [    c-scripting-core] Creating script environments for qb-garages
 [           resources] Started resource qb-garages
 [    c-scripting-core] Creating script environments for qb-garbagejob
@@ -454,37 +224,33 @@
 [           resources] Started resource qb-inventory
 [    c-scripting-core] Creating script environments for qb-jewelery
 [           resources] Started resource qb-jewelery
-[    c-scripting-core] [0mCreating script environments for qb-lapraces
+[    c-scripting-core] Creating script environments for qb-lapraces
 [           resources] Started resource qb-lapraces
 [           resources] Started resource qb-loading
 [    c-scripting-core] Creating script environments for qb-management
 [           resources] Started resource qb-management
-[    c-scripting-core] Creating script environments for qb-mechanicjob
+[    c-scripting-core] [0mCreating script environments for qb-mechanicjob
 [           resources] Started resource qb-mechanicjob
 [    c-scripting-core] Creating script environments for qb-spawn
 [           resources] Started resource qb-spawn
-[    c-scripting-core] [0mCreating script environments for qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-multicharacter
 [           resources] Started resource qb-multicharacter
 [    c-scripting-core] Creating script environments for qb-newsjob
 [           resources] Started resource qb-newsjob
-[    c-scripting-core] Creating script environments for qb-pawnshop
+[    c-scripting-core] [0mCreating script environments for qb-pawnshop
 [           resources] Started resource qb-pawnshop
 [    c-scripting-core] Creating script environments for qb-phone
-[           resources] Started resource qb-phone
+[           resources] [97mStarted resource qb-phone
 [    c-scripting-core] [0mCreating script environments for qb-policejob
 [           resources] Started resource qb-policejob
 [    c-scripting-core] Creating script environments for qb-prison
 [           resources] Started resource qb-prison
 [    c-scripting-core] Creating script environments for qb-radialmenu
 [           resources] Started resource qb-radialmenu
-[    c-scripting-core] Creating script environments for qb-recyclejob
-[           resources] Started resource qb-recyclejob
-[    c-scripting-core] [97mCreating script environments for qb-scoreboard
+[    c-scripting-core] Creating script environments for qb-scoreboard
 [           resources] Started resource qb-scoreboard
 [    c-scripting-core] Creating script environments for qb-scrapyard
 [           resources] Started resource qb-scrapyard
-[    c-scripting-core] Creating script environments for qb-shops
-[           resources] Started resource qb-shops
 [    c-scripting-core] Creating script environments for qb-smallresources
 [           resources] Started resource qb-smallresources
 [    c-scripting-core] Creating script environments for qb-storerobbery
@@ -499,10 +265,10 @@
 [    c-scripting-core] Creating script environments for qb-truckrobbery
 [           resources] Started resource qb-truckrobbery
 [    c-scripting-core] [0mCreating script environments for qb-vehiclekeys
-[           resources] Started resource qb-vehiclekeys
+[           resources] [97mStarted resource qb-vehiclekeys
 [    c-scripting-core] Creating script environments for qb-vehiclesales
-[           resources] Started resource qb-vehiclesales
-[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] [0mStarted resource qb-vehiclesales
+[    c-scripting-core] [97mCreating script environments for qb-vehicleshop
 [           resources] Started resource qb-vehicleshop
 [    c-scripting-core] Creating script environments for qb-vineyard
 [           resources] Started resource qb-vineyard
@@ -530,15 +296,13 @@
 [           resources] Started resource ps-adminmenu
 [    c-scripting-core] Creating script environments for ps-banking
 [           resources] Started resource ps-banking
-[    c-scripting-core] [0mCreating script environments for ps-camera
+[    c-scripting-core] Creating script environments for ps-camera
 [           resources] Started resource ps-camera
 [    c-scripting-core] Creating script environments for ps-dispatch
 [           resources] Started resource ps-dispatch
 [    c-scripting-core] Creating script environments for ps-drugprocessing
 [           resources] Started resource ps-drugprocessing
-[    c-scripting-core] [0mCreating script environments for ps-inventory
-[ script:ps-inventory] Error parsing script @ps-inventory/server/main.lua in resource ps-inventory: @ps-inventory/server/main.lua:2275: unexpected symbol near ')'
-[    c-scripting-core] Failed to load script server/main.lua.
+[    c-scripting-core] Creating script environments for ps-inventory
 [           resources] Started resource ps-inventory
 [    c-scripting-core] Creating script environments for ps-mdt
 [           resources] Started resource ps-mdt
@@ -548,623 +312,112 @@
 [           resources] Started resource ps-ui
 [    c-scripting-core] Creating script environments for rpemotes
 [     script:rpemotes] RpEmotes maintained by TayMcKenzieNZ loaded sucessfully.
-[     script:rpemotes] [rp] Sql Keybinding is turned off, if you want to enable /emotebind, set SqlKeybinding = true in config.lua and uncomment oxmysql lines in fxmanifest.lua.
-[           resources] Started resource rpemotes
-[    c-scripting-core] Creating script environments for wk_wars2x
-[           resources] [0mStarted resource wk_wars2x
-[    c-scripting-core] Creating script environments for jim-chairs
-[   script:jim-chairs] Jim-Chairs v1.5 - Portable Chair Script by Jimathy
-[           resources] Started resource jim-chairs
-[    c-scripting-core] Creating script environments for jim-mining
-[   script:jim-mining] [32mJim-Mining vv2.4.3 - Mining Script by Jimathy
-[           resources] Started resource jim-mining
-[    c-scripting-core] Creating script environments for jim-payments
-[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim[0m-Payments v2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'henhouse' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pearls' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tuners' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'beanmachine' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'ottos' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'vanilla' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'hornys' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'popsdiner' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tequilala' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bakery' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'lscustoms' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bestbuds' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'whitewidow' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'catcafe' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cigarbar' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'burgershot' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'smokeshop' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'kois' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pizzathis' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'upnatom' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cluckinbell' and couldn't find it in the Shared
-[           resources] Started resource jim-payments
-[    c-scripting-core] Creating script environments for jim-recycle
-[  script:jim-recycle] Jim-Recycle v2.7.2 - Recycling Script by Jimathy
-[           resources] Started resource jim-recycle
-[    c-scripting-core] [0mCreating script environments for jim-skateboard
-[    c-scripting-core] Failed to load script @ox_core/imports/client.lua.
-[    c-scripting-core] Failed to load script @es_extended/imports.lua.
-[    c-scripting-core] Failed to load script @qbx_core/modules/playerdata.lua.
-[script:jim-skateboar] Bridge: 'ps-inventory' export found 
-[script:jim-skateboar] Bridge: 'qb-core' export found 
-[script:jim-skateboar] Bridge: 'ox_lib' export found 
-[script:jim-skateboar] Bridge: 'qb-target' export found 
-[script:jim-skateboar] Bridge: Loading 520 Items from qb-core
-[script:jim-skateboar] Bridge: Loading 729 Vehicles from qb-core
-[script:jim-skateboar] Bridge: Loading 20 Jobs from qb-core	Bridge: Loading 7 Gangs from qb-core
-[           resources] Started resource jim-skateboard
-[           resources] Started resource jim_bridge
-[           resources] Started resource qb-menu
-[    c-scripting-core] Creating script environments for pma-voice
-[           resources] Started resource pma-voice
-[    c-scripting-core] Creating script environments for qb-radio
-[           resources] Started resource qb-radio
-[           resources] Started resource dealer_map
-[           resources] Started resource hospital_map
-[           resources] Started resource prison_canteen
-[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
-[           resources] Started resource prison_main (1 warning)
-[           resources] Started resource prison_meeting
-[     script:rpemotes] [rpemotes] Currently unable to run a version check.
-[   script:jim-chairs] You are running the latest version.
-[script:jim-skateboar] 'jim_bridge' - You are running the latest version. (1.0.14)
-[   script:mapmanager] Started map fivem-map-hipster
-[           resources] Started resource fivem-map-hipster
-[script:jim-skateboar] Version Check: Running: 2.0.1 Latest: 2.0.
-[script:jim-skateboar] 'jim-skateboard' - You are currently running an outdated version, please update!
-[      script:oxmysql] [10.4.32-MariaDB] [32mDatabase server connection established!
-[ citizen-server-impl]         fff                          
-[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://phil-macory-8b8ya5.users.cfx.re/
-[    script:wk_wars2x]  
-[    script:wk_wars2x]   //
-[    script:wk_wars2x]   ||       __      __        _ _   _        _   ___  ___   _____  __
-[    script:wk_wars2x]   ||       \ \    / / _ __ _(_) |_| |_     /_\ | _ \/ __| |_  ) \/ /
-[    script:wk_wars2x]   ||        \ \/\/ / '_/ _` | |  _| ' \   / _ \|   /\__ \  / / >  < 
-[    script:wk_wars2x]   ||         \_/\_/|_| \__,_|_|\__|_||_| /_/ \_\_|_\|___/ /___/_/\_\
-[    script:wk_wars2x]   || 
-[    script:wk_wars2x]   ||                        Created by WolfKnight
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   ||    Current version: 1.3.1
-[    script:wk_wars2x]   ||    Latest recommended version: 1.3.1
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   ||    Wraith ARS 2X is up to date!
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   \\
-[    script:wk_wars2x] 
-[       script:ps-mdt] A webhook is missing in: ClockinWebhook (server > main.lua > line 24)
-> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂phil-macory＂,＂message＂:＂Server restarting (requested by phil-macory).＂}"
-[      script:monitor] [36m[txAdmin] Server shutdown imminent. Kicking all players.
-
-================================================================
-======== FXServer Starting - 04/08/2024, 01:27:47               
-================================================================
-[           resources] Scanning resources.
-[   resources:qb-menu] Warning: qb-menu exists in more than one place (C:\Users\leejo\Desktop\QB-CoreFreeAssetServer\QB-Core-FreeAssetServer\txData\QBCoreFramework_AE7AD2.base\resources\[jimathy]\qb-menu is used, the duplicate is C:\Users\leejo\Desktop\QB-CoreFreeAssetServer\QB-Core-FreeAssetServer\txData\QBCoreFramework_AE7AD2.base\resources\[qb]\qb-menu)
-[           resources] Found 118 resources.
-[           resources] 1 warning was encountered.
-[38;5;66m[          svadhesive] Authenticating server license key...
-[          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for sessionmanager
-[           resources] [0mStarted resource sessionmanager
-[    c-scripting-core] Creating script environments for monitor
-[      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
-[           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for mapmanager
-[           resources] Started resource mapmanager
-[    c-scripting-core] Creating script environments for yarn
-[           resources] Started resource yarn
-[    c-scripting-core] Creating script environments for webpack
-[           resources] Started resource webpack
-[    c-scripting-core] [97mCreating script environments for chat
-[           resources] Started resource chat
-[           resources] Started resource spawnmanager
-[   script:mapmanager] Started gametype Freeroam
-[           resources] Started resource basic-gamemode
-[    c-scripting-core] Creating script environments for hardcap
-[           resources] Started resource hardcap
-[    c-scripting-core] [97mCreating script environments for baseevents
-[           resources] Started resource baseevents
-[           resources] Started resource NativeUI
-[           resources] Started resource RageUI
-[    c-scripting-core] [0mCreating script environments for ox_lib
-[           resources] Started resource ox_lib
-[    c-scripting-core] Creating script environments for oxmysql
-[           resources] Started resource oxmysql
-[    c-scripting-core] Creating script environments for qb-core
-[           resources] Started resource qb-core
-[    c-scripting-core] Creating script environments for qb-ambulancejob
-[           resources] Started resource qb-ambulancejob
-[           resources] Started resource qb-interior
-[    c-scripting-core] Creating script environments for qb-weathersync
-[           resources] Started resource qb-weathersync
-[    c-scripting-core] [0mCreating script environments for qb-apartments
-[           resources] Started resource qb-apartments
-[    c-scripting-core] Creating script environments for PolyZone
-[           resources] Started resource PolyZone
-[    c-scripting-core] Creating script environments for qb-bankrobbery
-[           resources] Started resource qb-bankrobbery
-[    c-scripting-core] Creating script environments for qb-busjob
-[           resources] Started resource qb-busjob
-[    c-scripting-core] Creating script environments for qb-cityhall
-[           resources] Started resource qb-cityhall
-[    c-scripting-core] [0mCreating script environments for qb-crafting
-[           resources] [0mStarted resource qb-crafting
-[           resources] Started resource qb-minigames
-[    c-scripting-core] Creating script environments for qb-crypto
-[           resources] [0mStarted resource qb-crypto
-[    c-scripting-core] Creating script environments for qb-diving
-[           resources] Started resource qb-diving
-[    c-scripting-core] Creating script environments for qb-doorlock
-[           resources] Started resource qb-doorlock
-[    c-scripting-core] Creating script environments for qb-drugs
-[           resources] Started resource qb-drugs
-[    c-scripting-core] Creating script environments for qb-garages
-[           resources] Started resource qb-garages
-[    c-scripting-core] [0mCreating script environments for qb-garbagejob
-[           resources] Started resource qb-garbagejob
-[    c-scripting-core] [0mCreating script environments for qb-hotdogjob
-[           resources] Started resource qb-hotdogjob
-[    c-scripting-core] Creating script environments for qb-houserobbery
-[           resources] Started resource qb-houserobbery
-[    c-scripting-core] Creating script environments for qb-houses
-[           resources] Started resource qb-houses
-[    c-scripting-core] Creating script environments for qb-hud
-[           resources] Started resource qb-hud
-[           resources] Started resource qb-input
-[    c-scripting-core] [0mCreating script environments for qb-weapons
-[           resources] Started resource qb-weapons
-[    c-scripting-core] Creating script environments for qb-inventory
-[           resources] Started resource qb-inventory
-[    c-scripting-core] Creating script environments for qb-jewelery
-[           resources] Started resource qb-jewelery
-[    c-scripting-core] Creating script environments for qb-lapraces
-[           resources] Started resource qb-lapraces
-[           resources] Started resource qb-loading
-[    c-scripting-core] Creating script environments for qb-management
-[           resources] Started resource qb-management
-[    c-scripting-core] Creating script environments for qb-mechanicjob
-[           resources] Started resource qb-mechanicjob
-[    c-scripting-core] Creating script environments for qb-spawn
-[           resources] Started resource qb-spawn
-[    c-scripting-core] Creating script environments for qb-multicharacter
-[           resources] Started resource qb-multicharacter
-[    c-scripting-core] [97mCreating script environments for qb-newsjob
-[           resources] Started resource qb-newsjob
-[    c-scripting-core] Creating script environments for qb-pawnshop
-[           resources] Started resource qb-pawnshop
-[    c-scripting-core] Creating script environments for qb-phone
-[           resources] Started resource qb-phone
-[    c-scripting-core] Creating script environments for qb-policejob
-[           resources] [0mStarted resource qb-policejob
-[    c-scripting-core] Creating script environments for qb-prison
-[           resources] Started resource qb-prison
-[    c-scripting-core] Creating script environments for qb-radialmenu
-[           resources] Started resource qb-radialmenu
-[    c-scripting-core] [0mCreating script environments for qb-recyclejob
-[           resources] Started resource qb-recyclejob
-[    c-scripting-core] Creating script environments for qb-scoreboard
-[           resources] Started resource qb-scoreboard
-[    c-scripting-core] Creating script environments for qb-scrapyard
-[           resources] Started resource qb-scrapyard
-[    c-scripting-core] [0mCreating script environments for qb-shops
-[           resources] Started resource qb-shops
-[    c-scripting-core] Creating script environments for qb-smallresources
-[           resources] Started resource qb-smallresources
-[    c-scripting-core] Creating script environments for qb-storerobbery
-[           resources] Started resource qb-storerobbery
-[    c-scripting-core] Creating script environments for qb-streetraces
-[           resources] Started resource qb-streetraces
-[           resources] Started resource qb-target
-[    c-scripting-core] Creating script environments for qb-taxijob
-[           resources] Started resource qb-taxijob
-[    c-scripting-core] Creating script environments for qb-towjob
-[           resources] Started resource qb-towjob
-[    c-scripting-core] Creating script environments for qb-truckrobbery
-[           resources] Started resource qb-truckrobbery
-[    c-scripting-core] Creating script environments for qb-vehiclekeys
-[           resources] Started resource qb-vehiclekeys
-[    c-scripting-core] Creating script environments for qb-vehiclesales
-[           resources] Started resource qb-vehiclesales
-[    c-scripting-core] Creating script environments for qb-vehicleshop
-[           resources] Started resource qb-vehicleshop
-[    c-scripting-core] [0mCreating script environments for qb-vineyard
-[           resources] Started resource qb-vineyard
-[    c-scripting-core] Creating script environments for qb-weed
-[           resources] Started resource qb-weed
-[    c-scripting-core] Creating script environments for LegacyFuel
-[           resources] Started resource LegacyFuel
-[           resources] Started resource bob74_ipl
-[    c-scripting-core] Creating script environments for connectqueue
-[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
-[           resources] Stopping resource hardcap
-[           resources] [0mStarted resource connectqueue
-[    c-scripting-core] [0mCreating script environments for illenium-appearance
-[           resources] Started resource illenium-appearance
-[    c-scripting-core] Creating script environments for interact-sound
-[           resources] Started resource interact-sound
-[           resources] Started resource menuv
-[           resources] Started resource safecracker
-[    c-scripting-core] Creating script environments for screenshot-basic
-[           resources] Started resource screenshot-basic
-[    c-scripting-core] Creating script environments for cqc-mugshot
-[           resources] Started resource cqc-mugshot
-[           resources] Started resource progressbar
-[    c-scripting-core] [0mCreating script environments for ps-adminmenu
-[           resources] [0mStarted resource ps-adminmenu
-[    c-scripting-core] Creating script environments for ps-banking
-[           resources] Started resource ps-banking
-[    c-scripting-core] Creating script environments for ps-camera
-[           resources] Started resource ps-camera
-[    c-scripting-core] Creating script environments for ps-dispatch
-[           resources] Started resource ps-dispatch
-[    c-scripting-core] Creating script environments for ps-drugprocessing
-[           resources] Started resource ps-drugprocessing
-[    c-scripting-core] [0mCreating script environments for ps-inventory
-[           resources] Started resource ps-inventory
-[    c-scripting-core] Creating script environments for ps-mdt
-[           resources] Started resource ps-mdt
-[    c-scripting-core] Creating script environments for ps-multijob
-[           resources] Started resource ps-multijob
-[           resources] Started resource ps-props
-[           resources] Started resource ps-ui
-[    c-scripting-core] Creating script environments for rpemotes
-[     script:rpemotes] RpEmotes maintained by TayMcKenzieNZ loaded sucessfully.
-[     script:rpemotes] [rp] Sql Keybinding is turned off, if you want to enable /emotebind, set SqlKeybinding = true in config.lua and uncomment oxmysql lines in fxmanifest.lua.
-[           resources] Started resource rpemotes
-[    c-scripting-core] Creating script environments for wk_wars2x
-[           resources] Started resource wk_wars2x
-[    c-scripting-core] [0mCreating script environments for jim-chairs
-[   script:jim-chairs] Jim-Chairs v1.5 - Portable Chair Script by Jimathy
-[           resources] Started resource jim-chairs
-[    c-scripting-core] Creating script environments for jim-mining
-[   script:jim-mining] Jim-Mining vv2.4.3 - Mining Script by Jimathy
-[           resources] Started resource jim-mining
-[    c-scripting-core] Creating script environments for jim-payments
-[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim[0m-Payments v2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'upnatom' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cigarbar' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'lscustoms' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'burgershot' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'catcafe' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'popsdiner' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cluckinbell' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'vanilla' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pizzathis' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'henhouse' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'whitewidow' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'beanmachine' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tuners' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'ottos' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bestbuds' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bakery' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'kois' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'smokeshop' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pearls' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'hornys' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tequilala' and couldn't find it in the Shared
-[           resources] Started resource jim-payments
-[    c-scripting-core] Creating script environments for jim-recycle
-[  script:jim-recycle] Jim-Recycle v2.7.2 - Recycling Script by Jimathy
-[           resources] Started resource jim-recycle
-[    c-scripting-core] Creating script environments for jim-skateboard
-[    c-scripting-core] Failed to load script @ox_core/imports/client.lua.
-[    c-scripting-core] Failed to load script @es_extended/imports.lua.
-[38;5;161m[    c-scripting-core] Failed to load script @qbx_core/modules/playerdata.lua.
-[script:jim-skateboar] Bridge: 'ps-inventory' export found 
-[script:jim-skateboar] Bridge: 'ox_lib' export found 
-[script:jim-skateboar] Bridge: 'qb-target' export found 
-[script:jim-skateboar] Bridge: 'qb-core' export found 
-[script:jim-skateboar] Bridge: Loading 520 Items from qb-core
-[script:jim-skateboar] Bridge: Loading 729 Vehicles from qb-core
-[script:jim-skateboar] Bridge: Loading 20 Jobs from qb-core	Bridge: Loading 7 Gangs from qb-core
-[           resources] Started resource jim-skateboard
-[           resources] Started resource jim_bridge
-[           resources] Started resource qb-menu
-[    c-scripting-core] Creating script environments for pma-voice
-[           resources] Started resource pma-voice
-[    c-scripting-core] Creating script environments for qb-radio
-[           resources] Started resource qb-radio
-[           resources] Started resource dealer_map
-[           resources] Started resource hospital_map
-[           resources] Started resource prison_canteen
-[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
-[           resources] Started resource prison_main (1 warning)
-[           resources] Started resource prison_meeting
-[     script:rpemotes] [rpemotes] Currently unable to run a version check.
-[   script:jim-chairs] You are running the latest version.
-[script:jim-skateboar] 'jim_bridge' - You are running the latest version. (1[0m.0.14)
-[   script:mapmanager] Started map fivem-map-hipster
-[           resources] Started resource fivem-map-hipster
-[script:jim-skateboar] Version Check: Running: 2.0.1 Latest: 2.0.
-[script:jim-skateboar] 'jim-skateboard' - You are currently running an outdated version, please update!
-[      script:oxmysql] [0m[10.4.32-MariaDB] Database server connection established!
-[ citizen-server-impl]         fff                          
-[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] [32mAuthenticated with cfx.re Nucleus: https://phil-macory-8b8ya5.users.cfx.re/
-[    script:wk_wars2x]  
-[    script:wk_wars2x]   //
-[    script:wk_wars2x]   ||       __      __        _ _   _        _   ___  ___   _____  __
-[    script:wk_wars2x]   ||       \ \    / / _ __ _(_) |_| |_     /_\ | _ \/ __| |_  ) \/ /
-[    script:wk_wars2x]   ||        \ \/\/ / '_/ _` | |  _| ' \   / _ \|   /\__ \  / / >  < 
-[    script:wk_wars2x]   ||         \_/\_/|_| \__,_|_|\__|_||_| /_/ \_\_|_\|___/ /___/_/\_\
-[    script:wk_wars2x]   || 
-[    script:wk_wars2x]   ||                        Created by WolfKnight
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   ||    Current version: 1.3.1
-[    script:wk_wars2x]   ||    Latest recommended version: 1.3.1
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   ||    Wraith ARS 2X is up to date!
-[    script:wk_wars2x]   ||
-[    script:wk_wars2x]   \\
-[    script:wk_wars2x] 
-[       script:ps-mdt] A webhook is missing in: ClockinWebhook (server > main.lua > line 24)
-> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂phil-macory＂,＂message＂:＂Server restarting (requested by phil-macory).＂}"
-[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
-
-================================================================
-======== FXServer Starting - 04/08/2024, 01:28:20               
-================================================================
-[           resources] Scanning resources.[0m
-[           resources] Found 118 resources.
-[          svadhesive] Authenticating server license key...
-[          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for sessionmanager
-[           resources] Started resource sessionmanager
-[    c-scripting-core] Creating script environments for monitor
-[      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
-[           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for mapmanager
-[           resources] Started resource mapmanager
-[    c-scripting-core] Creating script environments for yarn
-[           resources] Started resource yarn
-[    c-scripting-core] Creating script environments for webpack
-[           resources] Started resource webpack
-[    c-scripting-core] Creating script environments for chat
-[           resources] Started resource chat
-[           resources] Started resource spawnmanager
-[   script:mapmanager] Started gametype Freeroam
-[           resources] Started resource basic-gamemode
-[    c-scripting-core] Creating script environments for hardcap
-[           resources] Started resource hardcap
-[    c-scripting-core] Creating script environments for baseevents
-[           resources] Started resource baseevents
-[           resources] Started resource NativeUI
-[           resources] Started resource RageUI
-[    c-scripting-core] Creating script environments for ox_lib
-[           resources] Started resource ox_lib
-[    c-scripting-core] Creating script environments for oxmysql
-[           resources] Started resource oxmysql
-[    c-scripting-core] Creating script environments for qb-core
-[           resources] Started resource qb-core
-[    c-scripting-core] Creating script environments for qb-ambulancejob
-[           resources] [0mStarted resource qb-ambulancejob
-[           resources] Started resource qb-interior
-[    c-scripting-core] Creating script environments for qb-weathersync
-[           resources] Started resource qb-weathersync
-[    c-scripting-core] Creating script environments for qb-apartments
-[           resources] Started resource qb-apartments
-[    c-scripting-core] Creating script environments for PolyZone
-[           resources] Started resource PolyZone
-[    c-scripting-core] Creating script environments for qb-bankrobbery
-[           resources] [0mStarted resource qb-bankrobbery
-[    c-scripting-core] Creating script environments for qb-busjob
-[           resources] Started resource qb-busjob
-[    c-scripting-core] Creating script environments for qb-cityhall
-[           resources] Started resource qb-cityhall
-[    c-scripting-core] Creating script environments for qb-crafting
-[           resources] Started resource qb-crafting
-[           resources] Started resource qb-minigames
-[    c-scripting-core] Creating script environments for qb-crypto
-[           resources] Started resource qb-crypto
-[    c-scripting-core] Creating script environments for qb-diving
-[           resources] Started resource qb-diving
-[    c-scripting-core] Creating script environments for qb-doorlock
-[           resources] Started resource qb-doorlock
-[    c-scripting-core] Creating script environments for qb-drugs
-[           resources] Started resource qb-drugs
-[    c-scripting-core] Creating script environments for qb-garages
-[           resources] Started resource qb-garages
-[    c-scripting-core] Creating script environments for qb-garbagejob
-[           resources] Started resource qb-garbagejob
-[    c-scripting-core] Creating script environments for qb-hotdogjob
-[           resources] Started resource qb-hotdogjob
-[    c-scripting-core] Creating script environments for qb-houserobbery
-[           resources] Started resource qb-houserobbery
-[    c-scripting-core] Creating script environments for qb-houses
-[           resources] Started resource qb-houses
-[    c-scripting-core] Creating script environments for qb-hud
-[           resources] [0mStarted resource qb-hud
-[           resources] Started resource qb-input
-[    c-scripting-core] Creating script environments for qb-weapons
-[           resources] Started resource qb-weapons
-[    c-scripting-core] Creating script environments for qb-inventory
-[           resources] Started resource qb-inventory
-[    c-scripting-core] [0mCreating script environments for qb-jewelery
-[           resources] Started resource qb-jewelery
-[    c-scripting-core] Creating script environments for qb-lapraces
-[           resources] Started resource qb-lapraces
-[           resources] Started resource qb-loading
-[    c-scripting-core] [0mCreating script environments for qb-management
-[           resources] Started resource qb-management
-[    c-scripting-core] Creating script environments for qb-mechanicjob
-[           resources] [97mStarted resource qb-mechanicjob
-[    c-scripting-core] Creating script environments for qb-spawn
-[           resources] Started resource qb-spawn
-[    c-scripting-core] Creating script environments for qb-multicharacter
-[           resources] Started resource qb-multicharacter
-[    c-scripting-core] [97mCreating script environments for qb-newsjob
-[           resources] Started resource qb-newsjob
-[    c-scripting-core] Creating script environments for qb-pawnshop
-[           resources] Started resource qb-pawnshop
-[    c-scripting-core] [0mCreating script environments for qb-phone
-[           resources] Started resource qb-phone
-[    c-scripting-core] Creating script environments for qb-policejob
-[           resources] Started resource qb-policejob
-[    c-scripting-core] Creating script environments for qb-prison
-[           resources] Started resource qb-prison
-[    c-scripting-core] Creating script environments for qb-radialmenu
-[           resources] Started resource qb-radialmenu
-[    c-scripting-core] Creating script environments for qb-recyclejob
-[           resources] Started resource qb-recyclejob
-[    c-scripting-core] Creating script environments for qb-scoreboard
-[           resources] Started resource qb-scoreboard
-[    c-scripting-core] [0mCreating script environments for qb-scrapyard
-[           resources] Started resource qb-scrapyard
-[    c-scripting-core] Creating script environments for qb-shops
-[           resources] Started resource qb-shops
-[    c-scripting-core] Creating script environments for qb-smallresources
-[           resources] Started resource qb-smallresources
-[    c-scripting-core] Creating script environments for qb-storerobbery
-[           resources] Started resource qb-storerobbery
-[    c-scripting-core] Creating script environments for qb-streetraces
-[           resources] Started resource qb-streetraces
-[           resources] Started resource qb-target
-[    c-scripting-core] Creating script environments for qb-taxijob
-[           resources] Started resource qb-taxijob
-[    c-scripting-core] Creating script environments for qb-towjob
-[           resources] Started resource qb-towjob
-[    c-scripting-core] Creating script environments for qb-truckrobbery
-[           resources] Started resource qb-truckrobbery
-[    c-scripting-core] Creating script environments for qb-vehiclekeys
-[           resources] Started resource qb-vehiclekeys
-[    c-scripting-core] [0mCreating script environments for qb-vehiclesales
-[           resources] Started resource qb-vehiclesales
-[    c-scripting-core] Creating script environments for qb-vehicleshop
-[           resources] [0mStarted resource qb-vehicleshop
-[    c-scripting-core] Creating script environments for qb-vineyard
-[           resources] Started resource qb-vineyard
-[    c-scripting-core] [0mCreating script environments for qb-weed
-[           resources] Started resource qb-weed
-[    c-scripting-core] Creating script environments for LegacyFuel
-[           resources] Started resource LegacyFuel
-[           resources] Started resource bob74_ipl
-[    c-scripting-core] Creating script environments for connectqueue
-[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
-[           resources] Stopping resource hardcap
-[           resources] Started resource connectqueue
-[    c-scripting-core] Creating script environments for illenium-appearance
-[           resources] Started resource illenium-appearance
-[    c-scripting-core] [0mCreating script environments for interact-sound
-[           resources] [0mStarted resource interact-sound
-[           resources] Started resource menuv
-[           resources] Started resource safecracker
-[    c-scripting-core] Creating script environments for screenshot-basic
-[           resources] Started resource screenshot-basic
-[    c-scripting-core] [0mCreating script environments for cqc-mugshot
-[           resources] Started resource cqc-mugshot
-[           resources] Started resource progressbar
-[    c-scripting-core] Creating script environments for ps-adminmenu
-[           resources] Started resource ps-adminmenu
-[    c-scripting-core] Creating script environments for ps-banking
-[           resources] Started resource ps-banking
-[    c-scripting-core] Creating script environments for ps-camera
-[           resources] Started resource ps-camera
-[    c-scripting-core] Creating script environments for ps-dispatch
-[           resources] Started resource ps-dispatch
-[    c-scripting-core] Creating script environments for ps-drugprocessing
-[           resources] Started resource ps-drugprocessing
-[    c-scripting-core] [0mCreating script environments for ps-inventory
-[           resources] Started resource ps-inventory
-[    c-scripting-core] Creating script environments for ps-mdt
-[           resources] [0mStarted resource ps-mdt
-[    c-scripting-core] Creating script environments for ps-multijob
-[           resources] Started resource ps-multijob
-[           resources] Started resource ps-props
-[           resources] Started resource ps-ui
-[    c-scripting-core] Creating script environments for rpemotes
-[     script:rpemotes] RpEmotes maintained by TayMcKenzieNZ loaded sucessfully.
-[     script:rpemotes] [rp] Sql Keybinding is turned off, if you want to enable /emotebind, set SqlKeybinding = true in config.lua and uncomment oxmysql lines in fxmanifest.lua.
+[     script:rpemotes] [rp] [93mSql Keybinding is turned off, if you want to enable /emotebind, set SqlKeybinding = true in config.lua and uncomment oxmysql lines in fxmanifest.lua.
 [           resources] Started resource rpemotes
 [    c-scripting-core] Creating script environments for wk_wars2x
 [           resources] Started resource wk_wars2x
 [    c-scripting-core] Creating script environments for jim-chairs
 [   script:jim-chairs] Jim-Chairs v1.5 - Portable Chair Script by Jimathy
 [           resources] Started resource jim-chairs
+[    c-scripting-core] Creating script environments for jim-consumables
+[script:jim-consumabl] Jim-Consumables v[94m1.5 - Consumables Script by Jimathy
+[           resources] Started resource jim-consumables
+[    c-resources-core] Could not find dependency xsound for resource jim-djbooth.
+[ citizen-server-impl] Couldn't start resource jim-djbooth.
 [    c-scripting-core] Creating script environments for jim-mining
-[   script:jim-mining] Jim-Mining vv2.4.3 - Mining Script by Jimathy
+[   script:jim-mining] Jim-Mining vv2.[94m4.3 - Mining Script by Jimathy
 [           resources] Started resource jim-mining
 [    c-scripting-core] Creating script environments for jim-payments
 [ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim-Payments v[94m2.8.5 - Payments Script by Jimathy
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'popsdiner' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tuners' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pizzathis' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'hornys' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'henhouse' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'burgershot' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'catcafe' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pearls' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'lscustoms' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tequilala' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments v2.8.5 - Payments Script by Jimathy
 [ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'vanilla' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'popsdiner' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pizzathis' and couldn't find it in the Shared
 [ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'beanmachine' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bestbuds' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'upnatom' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bakery' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'catcafe' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'lscustoms' and couldn't find it in the Shared
 [ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cigarbar' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cluckinbell' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'henhouse' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'hornys' and couldn't find it in the Shared
 [ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'kois' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'smokeshop' and couldn't find it in the Shared
-[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'whitewidow' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'cluckinbell' and couldn't find it in the Shared
 [ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'ottos' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bakery' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tuners' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'burgershot' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'pearls' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'upnatom' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'whitewidow' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'smokeshop' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'bestbuds' and couldn't find it in the Shared
+[ script:jim-payments] Jim-Payments: Config.Jobs searched for job/gang 'tequilala' and couldn't find it in the Shared
 [           resources] Started resource jim-payments
 [    c-scripting-core] Creating script environments for jim-recycle
 [  script:jim-recycle] Jim-Recycle v2.7.2 - Recycling Script by Jimathy
 [           resources] Started resource jim-recycle
+[    c-scripting-core] Creating script environments for jim-shops
+[    script:jim-shops] Jim-Shops v2.1 - Shop Script by Jimathy
+[           resources] Started resource jim-shops
 [    c-scripting-core] Creating script environments for jim-skateboard
 [    c-scripting-core] Failed to load script @ox_core/imports/client.lua.
 [    c-scripting-core] Failed to load script @es_extended/imports.lua.
 [    c-scripting-core] Failed to load script @qbx_core/modules/playerdata.lua.
-[script:jim-skateboar] Bridge: 'qb-target' export found 
+[script:jim-skateboar] Bridge: 'ox_lib' export found 
 [script:jim-skateboar] Bridge: 'qb-core' export found 
 [script:jim-skateboar] Bridge: 'ps-inventory' export found 
-[script:jim-skateboar] Bridge: 'ox_lib' export found 
-[script:jim-skateboar] Bridge: Loading 520 Items from qb-core
+[script:jim-skateboar] Bridge: 'qb-target' export found 
+[script:jim-skateboar] [0mBridge: Loading 529 Items from qb-core
 [script:jim-skateboar] Bridge: Loading 729 Vehicles from qb-core
 [script:jim-skateboar] Bridge: Loading 20 Jobs from qb-core	Bridge: Loading 7 Gangs from qb-core
 [           resources] Started resource jim-skateboard
 [           resources] Started resource jim_bridge
 [           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for bl_bridge
+[    script:bl_bridge] [qb] Loaded module inventory
+[    script:bl_bridge] [qb] Loaded module core
+[    script:bl_bridge] [qb] Loaded module notify
+[           resources] Started resource bl_bridge
+[    c-scripting-core] [0mCreating script environments for bl_customs
+[           resources] Started resource bl_customs
+[    c-scripting-core] Creating script environments for bl_idcard
+[           resources] [0mStarted resource bl_idcard
+[    c-scripting-core] Creating script environments for bl_vehiclemenu
+[           resources] Started resource bl_vehiclemenu
+[    c-scripting-core] Creating script environments for randol_carheist
+[           resources] Started resource randol_carheist
+[    c-scripting-core] [0mCreating script environments for randol_combatlog
+[           resources] Started resource randol_combatlog
+[    c-scripting-core] [0mCreating script environments for randol_fingerprint
+[           resources] Started resource randol_fingerprint
+[    c-scripting-core] [0mCreating script environments for randol_grandma
+[           resources] Started resource randol_grandma
+[ citizen-server-impl] Couldn't find resource category [mlos].
 [    c-scripting-core] Creating script environments for pma-voice
 [           resources] Started resource pma-voice
-[    c-scripting-core] Creating script environments for qb-radio
+[    c-scripting-core] [0mCreating script environments for qb-radio
 [           resources] Started resource qb-radio
 [           resources] Started resource dealer_map
-[           resources] Started resource hospital_map
+[           resources] [0mStarted resource hospital_map
 [           resources] Started resource prison_canteen
 [resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
 [           resources] Started resource prison_main (1 warning)
 [           resources] Started resource prison_meeting
-[38;5;56m[     script:rpemotes] [rpemotes] Currently unable to run a version check.
+[     script:rpemotes] [rpemotes] Currently unable to run a version check.
+[script:jim-consumabl] You are running the latest version.
 [   script:jim-chairs] You are running the latest version.
 [script:jim-skateboar] 'jim_bridge' - You are running the latest version. (1.0.14)
-[   script:mapmanager] [0mStarted map fivem-map-hipster
+[   script:mapmanager] Started map fivem-map-hipster
 [           resources] Started resource fivem-map-hipster
-[      script:oxmysql] [10.4.32-MariaDB] [32mDatabase server connection established!
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[script:jim-skateboar] Version Check: Running: 2.0.1 Latest: 2.0.
+[script:jim-skateboar] 'jim-skateboard' - You are currently running an outdated version, please update!
 [ citizen-server-impl]         fff                          
 [ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
 [ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
 [ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
 [ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
 [ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://phil-macory-8b8ya5.users.cfx.re/
-[script:jim-skateboar] Version Check: Running: 2.0.1 Latest: 2.0.
-[script:jim-skateboar] 'jim-skateboard' - You are currently running an outdated version, please update!
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://phil-macory-8b8ya5.users.cfx.re/
 [    script:wk_wars2x]  
 [    script:wk_wars2x]   //
 [    script:wk_wars2x]   ||       __      __        _ _   _        _   ___  ___   _____  __
@@ -1181,11 +434,12 @@
 [    script:wk_wars2x]   ||
 [    script:wk_wars2x]   \\
 [    script:wk_wars2x] 
-[       script:ps-mdt] A webhook is missing in: ClockinWebhook (server > main.lua > line 24)
 [ script:connectqueue] QUEUE: leejo[license:a5b3d5bae31354d2c28d762ce81374dd61a32f83] was placed 1/1 in queue
 [ script:connectqueue] QUEUE: [97mleejo[license:a5b3d5bae31354d2c28d762ce81374dd61a32f83] is loading into the server
 [      script:qb-core] [qb-core:LOG] leejo PLAYER SAVED!
-[script:qb-multichara] [qb-core] leejo has successfully loaded!
+[script:qb-multichara] [qb-core] leejo (Citizen ID: ISA70238) has successfully loaded!
 [      script:qb-core] [qb-core:LOG] leejo PLAYER SAVED!
+[ citizen-server-impl] server thread hitch warning: timer interval of 259 milliseconds
+[     script:rpemotes] [rpemotes] Currently unable to run a version check.
 [      script:qb-core] [qb-core:LOG] leejo PLAYER SAVED!
 [ citizen-server-main] -> Quitting: SIGHUP received

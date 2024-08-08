@@ -9,7 +9,7 @@ print("^2Jim^7-^2Chairs ^7v^41^7.^45 ^7- ^2Portable Chair Script by Jimathy^7")
 Config = {
 	Debug = false, 	 -- Enable this to help debug the script
 
-	JimShops = false, -- Set to true if using jim-shops
+	JimShops = true, -- Set to true if using jim-shops
 
 	Core = "qb-core",
 	Inv = "qb",
@@ -53,7 +53,7 @@ Config = {
 			},
 			info = {
 				coords = vec4(2746.19, 3469.28, 55.67, 243.34),
-				showBlip = true,
+				showBlip = false,
 				ped = {
 					model = `S_M_Y_Construct_01`,
 					scenario = "WORLD_HUMAN_CLIPBOARD",
@@ -102,7 +102,7 @@ Config = {
 			},
 			info = {
 				coords = vec4(194.77, -1291.15, 29.32, 245.95),
-				showBlip = true,
+				showBlip = false,
 				ped = {
 					model = `S_M_Y_Construct_01`,
 					scenario = "WORLD_HUMAN_CLIPBOARD",
@@ -139,7 +139,7 @@ Config = {
 			},
 			info = {
 				coords = vec4(-490.19, 28.06, 46.3, 172.08),
-				showBlip = true,
+				showBlip = false,
 				ped = {
 					model = `S_M_Y_Construct_01`,
 					scenario = "WORLD_HUMAN_CLIPBOARD",
@@ -168,7 +168,7 @@ Config = {
 			},
 			info = {
 				coords = vec4(-39.55, 6471.5, 31.5, 45.78),
-				showBlip = true,
+				showBlip = false,
 				ped = {
 					model = `S_M_Y_Construct_01`,
 					scenario = "WORLD_HUMAN_CLIPBOARD",
@@ -190,7 +190,7 @@ Config = {
 			},
 			info = {
 				coords = vec4(1540.47, 3703.03, 34.54, 11.25),
-				showBlip = true,
+				showBlip = false,
 				ped = {
 					model = `S_M_Y_Construct_01`,
 					scenario = "WORLD_HUMAN_CLIPBOARD",

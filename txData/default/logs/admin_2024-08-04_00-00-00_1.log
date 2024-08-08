@@ -1,0 +1,13 @@
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 9235 Starting - 04/08/2024, 01:21:15
+================================================================
+
+================================================================
+======== Log Rotated - 04/08/2024, 01:21:15                     
+================================================================
+[01:22:02][phil-macory] logged in from 127.0.0.1 via cfxre
+[01:22:52][phil-macory] Changing global/fxserver settings via setup stepper.
+[01:24:04][phil-macory] executed "RESTART SERVER"
+[01:27:41][phil-macory] executed "RESTART SERVER"
+[01:28:14][phil-macory] executed "RESTART SERVER"
